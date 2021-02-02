@@ -1,0 +1,2022 @@
+02:09:13,118  INFO CRSApplication,main:12 - ***Welcome to Course Registration System***
+ 
+02:09:13,145  INFO UserCRSClient,main:76 - -----------------------------------------
+02:09:13,145  INFO UserCRSClient,main:77 - Select the User Type
+02:09:13,146  INFO UserCRSClient,main:78 - 1. Admin
+02:09:13,146  INFO UserCRSClient,main:79 - 2. Professor
+02:09:13,146  INFO UserCRSClient,main:80 - 3. Student
+02:09:13,147  INFO UserCRSClient,main:81 - 0. To exit
+02:09:13,147  INFO UserCRSClient,main:82 - -----------------------------------------
+02:09:23,717  INFO UserCRSClient,main:86 - Enter your credentials
+02:09:23,718  INFO UserCRSClient,main:87 - -----------------------------------------
+02:09:23,719  INFO UserCRSClient,main:88 - Enter username :
+02:09:29,081  INFO UserCRSClient,main:90 - Enter Password :
+02:09:30,302 DEBUG AuthenticationService,main:20 - <----Authenticate Student----->
+02:09:30,304 DEBUG AuthenticationDaoImplementation,main:43 - <----DAO: Authenticate Student----->
+02:09:30,305  INFO AuthenticationDaoImplementation,main:50 - Successful Login
+02:09:30,307  INFO StudentCRSClient,main:111 - Enter your choice:
+02:09:30,308  INFO StudentCRSClient,main:112 - 1. View Course Catalogue
+02:09:30,308  INFO StudentCRSClient,main:113 - 2. Add a course
+02:09:30,310  INFO StudentCRSClient,main:114 - 3. Drop a course
+02:09:30,311  INFO StudentCRSClient,main:115 - 4. Register courses
+02:09:30,312  INFO StudentCRSClient,main:116 - 5. View registered courses
+02:09:30,313  INFO StudentCRSClient,main:117 - 6. View total semester fee
+02:09:30,314  INFO StudentCRSClient,main:118 - 7. Make fee payment
+02:09:30,315  INFO StudentCRSClient,main:119 - 8. View report card
+02:09:30,316  INFO StudentCRSClient,main:120 - 0. Logout
+02:09:32,898 DEBUG CourseDaoImplementation,main:17 - Getting course catalog
+02:09:32,901  INFO StudentCRSClient,main:162 - ***Course Catalogue***
+02:09:32,902  INFO StudentCRSClient,main:164 - com.flipkart.bean.Course@63e31ee
+02:09:32,903  INFO StudentCRSClient,main:164 - com.flipkart.bean.Course@567d299b
+02:09:32,904  INFO StudentCRSClient,main:111 - Enter your choice:
+02:09:32,904  INFO StudentCRSClient,main:112 - 1. View Course Catalogue
+02:09:32,905  INFO StudentCRSClient,main:113 - 2. Add a course
+02:09:32,906  INFO StudentCRSClient,main:114 - 3. Drop a course
+02:09:32,908  INFO StudentCRSClient,main:115 - 4. Register courses
+02:09:32,909  INFO StudentCRSClient,main:116 - 5. View registered courses
+02:09:32,909  INFO StudentCRSClient,main:117 - 6. View total semester fee
+02:09:32,910  INFO StudentCRSClient,main:118 - 7. Make fee payment
+02:09:32,911  INFO StudentCRSClient,main:119 - 8. View report card
+02:09:32,912  INFO StudentCRSClient,main:120 - 0. Logout
+02:09:40,954 DEBUG PaymentService,main:18 - <----Calculating Amount----->
+02:09:40,956 DEBUG PaymentDaoImplementation,main:22 - <----DAO: Calculating Amount----->
+02:09:40,959  INFO StudentCRSClient,main:68 - Total Fee : 0.0
+02:09:40,960  INFO StudentCRSClient,main:111 - Enter your choice:
+02:09:40,961  INFO StudentCRSClient,main:112 - 1. View Course Catalogue
+02:09:40,961  INFO StudentCRSClient,main:113 - 2. Add a course
+02:09:40,962  INFO StudentCRSClient,main:114 - 3. Drop a course
+02:09:40,963  INFO StudentCRSClient,main:115 - 4. Register courses
+02:09:40,963  INFO StudentCRSClient,main:116 - 5. View registered courses
+02:09:40,964  INFO StudentCRSClient,main:117 - 6. View total semester fee
+02:09:40,964  INFO StudentCRSClient,main:118 - 7. Make fee payment
+02:09:40,964  INFO StudentCRSClient,main:119 - 8. View report card
+02:09:40,965  INFO StudentCRSClient,main:120 - 0. Logout
+02:09:55,446  INFO UserCRSClient,main:76 - -----------------------------------------
+02:09:55,447  INFO UserCRSClient,main:77 - Select the User Type
+02:09:55,447  INFO UserCRSClient,main:78 - 1. Admin
+02:09:55,448  INFO UserCRSClient,main:79 - 2. Professor
+02:09:55,448  INFO UserCRSClient,main:80 - 3. Student
+02:09:55,449  INFO UserCRSClient,main:81 - 0. To exit
+02:09:55,449  INFO UserCRSClient,main:82 - -----------------------------------------
+12:23:57,801 ERROR DBUtils,main:37 - com.mysql.jdbc.Driver
+14:05:27,847  INFO CRSApplication,main:12 - ***Welcome to Course Registration System***
+ 
+14:05:27,908  INFO UserCRSClient,main:76 - -----------------------------------------
+14:05:27,909  INFO UserCRSClient,main:77 - Select the User Type
+14:05:27,909  INFO UserCRSClient,main:78 - 1. Admin
+14:05:27,909  INFO UserCRSClient,main:79 - 2. Professor
+14:05:27,909  INFO UserCRSClient,main:80 - 3. Student
+14:05:27,909  INFO UserCRSClient,main:81 - 0. To exit
+14:05:27,910  INFO UserCRSClient,main:82 - -----------------------------------------
+14:05:31,507  INFO UserCRSClient,main:86 - Enter your credentials
+14:05:31,508  INFO UserCRSClient,main:87 - -----------------------------------------
+14:05:31,509  INFO UserCRSClient,main:88 - Enter username :
+14:05:35,600  INFO UserCRSClient,main:90 - Enter Password :
+14:05:36,508 DEBUG AuthenticationService,main:30 - <----Authenticate Admin----->
+14:05:36,510 DEBUG AuthenticationDaoImplementation,main:83 - <----DAO: Authenticate Admin----->
+14:05:36,510  INFO AuthenticationDaoImplementation,main:90 - Successful Login
+14:05:36,512  INFO AdminCRSClient,main:79 - Enter your choice:
+14:05:36,513  INFO AdminCRSClient,main:80 - 1. Update Course in Catalogue
+14:05:36,514  INFO AdminCRSClient,main:81 - 2. Add Course in Catalogue
+14:05:36,515  INFO AdminCRSClient,main:82 - 3. Delete Course in Catalogue
+14:05:36,516  INFO AdminCRSClient,main:83 - 4. Approve Students
+14:05:36,517  INFO AdminCRSClient,main:84 - 5. Add User
+14:05:36,518  INFO AdminCRSClient,main:85 - 6. Generate Report
+14:05:36,519  INFO AdminCRSClient,main:86 - 7. Remove User
+14:05:36,519  INFO AdminCRSClient,main:87 - 8. View Course Catalogue.
+14:05:36,520  INFO AdminCRSClient,main:88 - 9. View Students to be approved.
+14:05:36,521  INFO AdminCRSClient,main:89 - 0. logout
+14:05:44,343  INFO AdminCRSClient,main:94 - Enter Course Id--- 
+14:05:44,350  INFO AdminCRSClient,main:97 - Enter Course Name--- 
+14:05:52,715  INFO AdminCRSClient,main:100 - Enter Professor Name--- 
+14:05:57,891  INFO AdminCRSClient,main:103 - Enter Course Fee--- 
+14:06:01,074 DEBUG AdminDaoImplementation,main:74 - Admin is adding a new course to catalogue : com.flipkart.bean.Course@4fccd51b
+14:06:01,075  INFO AdminCRSClient,main:112 - Problem occurred, Try again!
+14:06:01,076  INFO AdminCRSClient,main:79 - Enter your choice:
+14:06:01,077  INFO AdminCRSClient,main:80 - 1. Update Course in Catalogue
+14:06:01,078  INFO AdminCRSClient,main:81 - 2. Add Course in Catalogue
+14:06:01,079  INFO AdminCRSClient,main:82 - 3. Delete Course in Catalogue
+14:06:01,080  INFO AdminCRSClient,main:83 - 4. Approve Students
+14:06:01,080  INFO AdminCRSClient,main:84 - 5. Add User
+14:06:01,081  INFO AdminCRSClient,main:85 - 6. Generate Report
+14:06:01,082  INFO AdminCRSClient,main:86 - 7. Remove User
+14:06:01,083  INFO AdminCRSClient,main:87 - 8. View Course Catalogue.
+14:06:01,084  INFO AdminCRSClient,main:88 - 9. View Students to be approved.
+14:06:01,085  INFO AdminCRSClient,main:89 - 0. logout
+20:22:49,220 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+20:22:49,236 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+20:22:49,242 ERROR AuthenticationDaoImplementation,main:69 - No operations allowed after connection closed.
+20:22:49,243 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+20:22:49,243 DEBUG AuthenticationDaoImplementation,main:86 - <----DAO: Authenticate Student----->
+20:22:49,244 ERROR AuthenticationDaoImplementation,main:174 - No operations allowed after connection closed.
+20:22:49,244 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+20:22:49,244 DEBUG AuthenticationDaoImplementation,main:192 - <----DAO: Authenticate Professor----->
+20:22:49,245 ERROR AuthenticationDaoImplementation,main:264 - No operations allowed after connection closed.
+20:22:49,245 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+20:22:49,245 DEBUG AuthenticationDaoImplementation,main:282 - <----DAO: Authenticate Admin----->
+20:22:49,246 ERROR AuthenticationDaoImplementation,main:322 - No operations allowed after connection closed.
+20:32:23,315 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+20:32:23,317 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+20:32:23,415 ERROR AuthenticationDaoImplementation,main:69 - Before start of result set
+20:32:23,416 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+20:32:23,416 DEBUG AuthenticationDaoImplementation,main:86 - <----DAO: Authenticate Student----->
+20:32:23,448 ERROR AuthenticationDaoImplementation,main:174 - Before start of result set
+20:32:23,449 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+20:32:23,449 DEBUG AuthenticationDaoImplementation,main:192 - <----DAO: Authenticate Professor----->
+20:32:23,478 ERROR AuthenticationDaoImplementation,main:264 - Before start of result set
+20:32:23,478 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+20:32:23,478 DEBUG AuthenticationDaoImplementation,main:282 - <----DAO: Authenticate Admin----->
+20:32:23,509 ERROR AuthenticationDaoImplementation,main:322 - Before start of result set
+20:35:16,957 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+20:35:16,960 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+20:35:17,009 ERROR AuthenticationDaoImplementation,main:69 - Before start of result set
+20:36:00,568 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+20:36:00,569 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+20:36:00,629 ERROR AuthenticationDaoImplementation,main:70 - Before start of result set
+20:38:41,645 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+20:38:41,648 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+20:38:41,695  INFO AuthenticationDaoImplementation,main:44 - Got password
+20:38:41,696  INFO AuthenticationDaoImplementation,main:68 - DAO: Successful Login
+20:40:52,666 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+20:40:52,668 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+20:40:52,716  INFO AuthenticationDaoImplementation,main:44 - Got password1234
+20:40:52,716  INFO AuthenticationDaoImplementation,main:68 - null
+null
+20:40:52,717  INFO AuthenticationDaoImplementation,main:70 - DAO: Successful Login
+20:42:11,333 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+20:42:11,336 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+20:42:11,378  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+20:42:11,378  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+20:42:11,379  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+20:50:08,794 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+20:50:08,797 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+20:50:08,850  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+20:50:08,851  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+20:50:08,851  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+20:50:28,909 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+20:50:28,911 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+20:50:28,968  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+20:50:28,969  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+20:50:28,969  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+20:50:28,969 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+20:50:28,970 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+20:50:29,020 ERROR AuthenticationDaoImplementation,main:184 - Cannot determine value type from string 'T'
+20:50:29,020 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+20:50:29,021 DEBUG AuthenticationDaoImplementation,main:202 - <----DAO: Authenticate Professor----->
+20:50:29,054  INFO AuthenticationDaoImplementation,main:236 - 102
+abc
+20:50:29,058 ERROR AuthenticationDaoImplementation,main:279 - Column 'professorId' in where clause is ambiguous
+20:50:29,058 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+20:50:29,058 DEBUG AuthenticationDaoImplementation,main:297 - <----DAO: Authenticate Admin----->
+20:50:29,079  INFO AuthenticationDaoImplementation,main:327 - 1033
+xyz
+20:50:29,079  INFO AuthenticationDaoImplementation,main:338 - DAO: Successful Login
+20:56:37,855 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+20:56:37,858 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+20:56:37,914  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+20:56:37,915  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+20:56:37,916  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+20:56:37,916 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+20:56:37,916 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+20:56:37,973  INFO AuthenticationDaoImplementation,main:111 - 101
+Pooja
+1234
+null
+20:56:37,978 ERROR AuthenticationDaoImplementation,main:186 - Cannot determine value type from string 'T'
+20:56:37,979 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+20:56:37,979 DEBUG AuthenticationDaoImplementation,main:204 - <----DAO: Authenticate Professor----->
+20:56:38,011  INFO AuthenticationDaoImplementation,main:238 - 102
+abc
+20:56:38,016 ERROR AuthenticationDaoImplementation,main:281 - Column 'professorId' in where clause is ambiguous
+20:56:38,017 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+20:56:38,017 DEBUG AuthenticationDaoImplementation,main:299 - <----DAO: Authenticate Admin----->
+20:56:38,047  INFO AuthenticationDaoImplementation,main:329 - 1033
+xyz
+20:56:38,047  INFO AuthenticationDaoImplementation,main:340 - DAO: Successful Login
+20:58:07,723 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+20:58:07,726 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+20:58:07,770  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+20:58:07,771  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+20:58:07,771  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+20:58:07,771 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+20:58:07,772 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+20:58:07,809  INFO AuthenticationDaoImplementation,main:120 - 101
+Pooja
+1234
+null
+
+20:58:07,815 ERROR AuthenticationDaoImplementation,main:188 - Cannot determine value type from string 'T'
+20:58:07,816 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+20:58:07,816 DEBUG AuthenticationDaoImplementation,main:206 - <----DAO: Authenticate Professor----->
+20:58:07,842  INFO AuthenticationDaoImplementation,main:240 - 102
+abc
+20:58:07,848 ERROR AuthenticationDaoImplementation,main:283 - Column 'professorId' in where clause is ambiguous
+20:58:07,848 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+20:58:07,849 DEBUG AuthenticationDaoImplementation,main:301 - <----DAO: Authenticate Admin----->
+20:58:07,874  INFO AuthenticationDaoImplementation,main:331 - 1033
+xyz
+20:58:07,874  INFO AuthenticationDaoImplementation,main:342 - DAO: Successful Login
+20:58:36,929 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+20:58:36,932 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+20:58:36,995  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+20:58:36,995  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+20:58:36,995  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+20:58:36,995 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+20:58:36,996 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+20:58:37,031  INFO AuthenticationDaoImplementation,main:111 - S
+20:58:37,039  INFO AuthenticationDaoImplementation,main:121 - 101
+Pooja
+1234
+null
+
+20:58:37,043 ERROR AuthenticationDaoImplementation,main:189 - Cannot determine value type from string 'T'
+20:58:37,043 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+20:58:37,044 DEBUG AuthenticationDaoImplementation,main:207 - <----DAO: Authenticate Professor----->
+20:58:37,076  INFO AuthenticationDaoImplementation,main:241 - 102
+abc
+20:58:37,081 ERROR AuthenticationDaoImplementation,main:284 - Column 'professorId' in where clause is ambiguous
+20:58:37,081 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+20:58:37,081 DEBUG AuthenticationDaoImplementation,main:302 - <----DAO: Authenticate Admin----->
+20:58:37,102  INFO AuthenticationDaoImplementation,main:332 - 1033
+xyz
+20:58:37,102  INFO AuthenticationDaoImplementation,main:343 - DAO: Successful Login
+21:00:31,239 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:00:31,242 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:00:31,306  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:00:31,306  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:00:31,307  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:00:31,307 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:00:31,307 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:00:31,336  INFO AuthenticationDaoImplementation,main:111 - S
+21:00:31,344  INFO AuthenticationDaoImplementation,main:122 - 101
+Pooja
+1234
+null
+
+21:00:31,348 ERROR AuthenticationDaoImplementation,main:190 - Cannot determine value type from string 'T'
+21:00:31,348 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:00:31,348 DEBUG AuthenticationDaoImplementation,main:208 - <----DAO: Authenticate Professor----->
+21:00:31,372  INFO AuthenticationDaoImplementation,main:242 - 102
+abc
+21:00:31,376 ERROR AuthenticationDaoImplementation,main:285 - Column 'professorId' in where clause is ambiguous
+21:00:31,376 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:00:31,376 DEBUG AuthenticationDaoImplementation,main:303 - <----DAO: Authenticate Admin----->
+21:00:31,400  INFO AuthenticationDaoImplementation,main:333 - 1033
+xyz
+21:00:31,400  INFO AuthenticationDaoImplementation,main:344 - DAO: Successful Login
+21:01:05,861 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:01:05,865 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:01:05,939  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:01:05,940  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:01:05,941  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:01:05,943 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:01:05,944 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:01:05,982  INFO AuthenticationDaoImplementation,main:111 - S
+21:01:05,983  INFO AuthenticationDaoImplementation,main:114 - S
+21:01:05,990  INFO AuthenticationDaoImplementation,main:122 - 101
+Pooja
+1234
+STUDENT
+
+21:01:05,995 ERROR AuthenticationDaoImplementation,main:190 - Cannot determine value type from string 'T'
+21:01:05,995 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:01:05,995 DEBUG AuthenticationDaoImplementation,main:208 - <----DAO: Authenticate Professor----->
+21:01:06,029  INFO AuthenticationDaoImplementation,main:242 - 102
+abc
+21:01:06,036 ERROR AuthenticationDaoImplementation,main:285 - Column 'professorId' in where clause is ambiguous
+21:01:06,036 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:01:06,037 DEBUG AuthenticationDaoImplementation,main:303 - <----DAO: Authenticate Admin----->
+21:01:06,073  INFO AuthenticationDaoImplementation,main:333 - 1033
+xyz
+21:01:06,073  INFO AuthenticationDaoImplementation,main:344 - DAO: Successful Login
+21:03:18,935 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:03:18,938 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:03:18,994  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:03:18,994  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:03:18,995  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:03:18,995 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:03:18,995 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:03:19,039  INFO AuthenticationDaoImplementation,main:120 - 101
+Pooja
+1234
+STUDENT
+
+21:03:19,045 ERROR AuthenticationDaoImplementation,main:188 - Cannot determine value type from string 'T'
+21:03:19,045 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:03:19,046 DEBUG AuthenticationDaoImplementation,main:206 - <----DAO: Authenticate Professor----->
+21:03:19,078  INFO AuthenticationDaoImplementation,main:240 - 102
+abc
+21:03:19,084 ERROR AuthenticationDaoImplementation,main:283 - Column 'professorId' in where clause is ambiguous
+21:03:19,085 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:03:19,085 DEBUG AuthenticationDaoImplementation,main:301 - <----DAO: Authenticate Admin----->
+21:03:19,111  INFO AuthenticationDaoImplementation,main:331 - 1033
+xyz
+21:03:19,111  INFO AuthenticationDaoImplementation,main:342 - DAO: Successful Login
+21:04:38,185 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:04:38,187 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:04:38,241  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:04:38,241  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:04:38,241  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:04:38,242 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:04:38,242 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:04:38,277  INFO AuthenticationDaoImplementation,main:123 - 101
+Pooja
+1234
+STUDENT
+pooja@gmail.com
+21:04:38,281 ERROR AuthenticationDaoImplementation,main:189 - Cannot determine value type from string 'T'
+21:04:38,282 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:04:38,282 DEBUG AuthenticationDaoImplementation,main:207 - <----DAO: Authenticate Professor----->
+21:04:38,308  INFO AuthenticationDaoImplementation,main:241 - 102
+abc
+21:04:38,313 ERROR AuthenticationDaoImplementation,main:284 - Column 'professorId' in where clause is ambiguous
+21:04:38,313 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:04:38,313 DEBUG AuthenticationDaoImplementation,main:302 - <----DAO: Authenticate Admin----->
+21:04:38,346  INFO AuthenticationDaoImplementation,main:332 - 1033
+xyz
+21:04:38,347  INFO AuthenticationDaoImplementation,main:343 - DAO: Successful Login
+21:06:48,574 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:06:48,577 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:06:48,641  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:06:48,642  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:06:48,642  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:06:48,642 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:06:48,642 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:06:48,692 ERROR AuthenticationDaoImplementation,main:192 - Cannot determine value type from string 'T'
+21:06:48,692 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:06:48,693 DEBUG AuthenticationDaoImplementation,main:210 - <----DAO: Authenticate Professor----->
+21:06:48,723  INFO AuthenticationDaoImplementation,main:244 - 102
+abc
+21:06:48,727 ERROR AuthenticationDaoImplementation,main:287 - Column 'professorId' in where clause is ambiguous
+21:06:48,727 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:06:48,727 DEBUG AuthenticationDaoImplementation,main:305 - <----DAO: Authenticate Admin----->
+21:06:48,754  INFO AuthenticationDaoImplementation,main:335 - 1033
+xyz
+21:06:48,754  INFO AuthenticationDaoImplementation,main:346 - DAO: Successful Login
+21:07:18,764 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:07:18,767 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:07:18,813  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:07:18,814  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:07:18,814  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:07:18,814 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:07:18,814 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:07:18,877  INFO AuthenticationDaoImplementation,main:128 - 101
+Pooja
+1234
+STUDENT
+pooja@gmail.com
+CS
+F
+false
+false
+false
+0.0
+false
+21:07:18,882 ERROR AuthenticationDaoImplementation,main:195 - Cannot determine value type from string 'T'
+21:07:18,882 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:07:18,882 DEBUG AuthenticationDaoImplementation,main:213 - <----DAO: Authenticate Professor----->
+21:07:18,910  INFO AuthenticationDaoImplementation,main:247 - 102
+abc
+21:07:18,915 ERROR AuthenticationDaoImplementation,main:290 - Column 'professorId' in where clause is ambiguous
+21:07:18,916 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:07:18,916 DEBUG AuthenticationDaoImplementation,main:308 - <----DAO: Authenticate Admin----->
+21:07:18,945  INFO AuthenticationDaoImplementation,main:338 - 1033
+xyz
+21:07:18,946  INFO AuthenticationDaoImplementation,main:349 - DAO: Successful Login
+21:09:12,641 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:09:12,644 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:09:12,700  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:09:12,700  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:09:12,701  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:09:12,701 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:09:12,701 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:09:12,743 ERROR AuthenticationDaoImplementation,main:196 - Cannot determine value type from string 'T'
+21:09:12,743 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:09:12,743 DEBUG AuthenticationDaoImplementation,main:214 - <----DAO: Authenticate Professor----->
+21:09:12,773  INFO AuthenticationDaoImplementation,main:248 - 102
+abc
+21:09:12,777 ERROR AuthenticationDaoImplementation,main:291 - Column 'professorId' in where clause is ambiguous
+21:09:12,778 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:09:12,778 DEBUG AuthenticationDaoImplementation,main:309 - <----DAO: Authenticate Admin----->
+21:09:12,811  INFO AuthenticationDaoImplementation,main:339 - 1033
+xyz
+21:09:12,812  INFO AuthenticationDaoImplementation,main:350 - DAO: Successful Login
+21:20:02,353 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:20:02,355 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:20:02,405  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:20:02,405  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:20:02,406  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:20:02,406 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:20:02,406 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:20:02,463  INFO AuthenticationDaoImplementation,main:128 - 101
+Pooja
+1234
+STUDENT
+pooja@gmail.com
+CS
+F
+false
+false
+false
+0.0
+false
+21:20:02,463  INFO AuthenticationDaoImplementation,main:135 - T
+21:20:02,464  INFO AuthenticationDaoImplementation,main:147 - 101
+Pooja
+21:20:02,467  INFO AuthenticationDaoImplementation,main:196 - DAO: Successful Login
+21:20:02,467 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:20:02,467 DEBUG AuthenticationDaoImplementation,main:219 - <----DAO: Authenticate Professor----->
+21:20:02,505  INFO AuthenticationDaoImplementation,main:253 - 102
+abc
+21:20:02,514 ERROR AuthenticationDaoImplementation,main:296 - Column 'professorId' in where clause is ambiguous
+21:20:02,514 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:20:02,515 DEBUG AuthenticationDaoImplementation,main:314 - <----DAO: Authenticate Admin----->
+21:20:02,537  INFO AuthenticationDaoImplementation,main:344 - 1033
+xyz
+21:20:02,538  INFO AuthenticationDaoImplementation,main:355 - DAO: Successful Login
+21:21:26,885 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:21:26,887 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:21:26,935  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:21:26,936  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:21:26,936  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:21:26,937 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:21:26,937 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:21:26,999  INFO AuthenticationDaoImplementation,main:128 - 101
+Pooja
+1234
+STUDENT
+pooja@gmail.com
+CS
+F
+false
+false
+false
+0.0
+false
+21:21:27,000  INFO AuthenticationDaoImplementation,main:135 - isApproved: T
+21:21:27,000  INFO AuthenticationDaoImplementation,main:147 - 101
+Pooja
+21:21:27,003  INFO AuthenticationDaoImplementation,main:196 - DAO: Successful Login
+21:21:27,003 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:21:27,004 DEBUG AuthenticationDaoImplementation,main:219 - <----DAO: Authenticate Professor----->
+21:21:27,035  INFO AuthenticationDaoImplementation,main:253 - 102
+abc
+21:21:27,044 ERROR AuthenticationDaoImplementation,main:296 - Column 'professorId' in where clause is ambiguous
+21:21:27,045 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:21:27,045 DEBUG AuthenticationDaoImplementation,main:314 - <----DAO: Authenticate Admin----->
+21:21:27,079  INFO AuthenticationDaoImplementation,main:344 - 1033
+xyz
+21:21:27,080  INFO AuthenticationDaoImplementation,main:355 - DAO: Successful Login
+21:22:19,531 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:22:19,533 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:22:19,590  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:22:19,591  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:22:19,591  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:22:19,591 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:22:19,592 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:22:19,639  INFO AuthenticationDaoImplementation,main:128 - 101
+Pooja
+1234
+STUDENT
+pooja@gmail.com
+CS
+F
+false
+false
+false
+0.0
+false
+21:22:19,640  INFO AuthenticationDaoImplementation,main:135 - isApproved: T
+21:22:19,640  INFO AuthenticationDaoImplementation,main:147 - 101
+Pooja
+21:22:19,643  INFO AuthenticationDaoImplementation,main:196 - DAO: Successful Login
+21:22:19,643 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:22:19,644 DEBUG AuthenticationDaoImplementation,main:219 - <----DAO: Authenticate Professor----->
+21:22:19,666  INFO AuthenticationDaoImplementation,main:253 - 102
+abc
+21:22:19,673 ERROR AuthenticationDaoImplementation,main:296 - Column 'professorId' in where clause is ambiguous
+21:22:19,674 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:22:19,674 DEBUG AuthenticationDaoImplementation,main:314 - <----DAO: Authenticate Admin----->
+21:22:19,695  INFO AuthenticationDaoImplementation,main:344 - 1033
+xyz
+21:22:19,696  INFO AuthenticationDaoImplementation,main:355 - DAO: Successful Login
+21:25:45,951 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:25:45,953 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:25:46,004  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:25:46,005  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:25:46,005  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:25:46,005 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:25:46,005 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:25:46,051  INFO AuthenticationDaoImplementation,main:128 - 101
+Pooja
+1234
+STUDENT
+pooja@gmail.com
+CSE
+F
+false
+false
+false
+0.0
+false
+21:25:46,051  INFO AuthenticationDaoImplementation,main:135 - isApproved: null
+21:25:46,052  INFO AuthenticationDaoImplementation,main:147 - 101
+Pooja
+21:25:46,055  INFO AuthenticationDaoImplementation,main:196 - DAO: Successful Login
+21:25:46,055 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:25:46,055 DEBUG AuthenticationDaoImplementation,main:219 - <----DAO: Authenticate Professor----->
+21:25:46,084  INFO AuthenticationDaoImplementation,main:253 - 102
+abc
+21:25:46,093 ERROR AuthenticationDaoImplementation,main:296 - Column 'professorId' in where clause is ambiguous
+21:25:46,093 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:25:46,093 DEBUG AuthenticationDaoImplementation,main:314 - <----DAO: Authenticate Admin----->
+21:25:46,115  INFO AuthenticationDaoImplementation,main:344 - 1033
+xyz
+21:25:46,115  INFO AuthenticationDaoImplementation,main:355 - DAO: Successful Login
+21:26:45,980 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:26:45,983 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:26:46,037  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:26:46,038  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:26:46,038  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:26:46,038 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:26:46,038 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:26:46,091  INFO AuthenticationDaoImplementation,main:128 - 101
+Pooja
+1234
+STUDENT
+pooja@gmail.com
+CSE
+F
+false
+false
+false
+0.0
+false
+21:26:46,092  INFO AuthenticationDaoImplementation,main:135 - isApproved: null
+21:26:46,092  INFO AuthenticationDaoImplementation,main:138 - Null hi hai
+21:26:46,093  INFO AuthenticationDaoImplementation,main:140 - 101
+Pooja
+1234
+STUDENT
+pooja@gmail.com
+CSE
+F
+false
+false
+false
+0.0
+false
+21:26:46,093  INFO AuthenticationDaoImplementation,main:152 - 101
+Pooja
+21:26:46,096  INFO AuthenticationDaoImplementation,main:201 - DAO: Successful Login
+21:26:46,096 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:26:46,097 DEBUG AuthenticationDaoImplementation,main:224 - <----DAO: Authenticate Professor----->
+21:26:46,126  INFO AuthenticationDaoImplementation,main:258 - 102
+abc
+21:26:46,133 ERROR AuthenticationDaoImplementation,main:301 - Column 'professorId' in where clause is ambiguous
+21:26:46,134 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:26:46,134 DEBUG AuthenticationDaoImplementation,main:319 - <----DAO: Authenticate Admin----->
+21:26:46,168  INFO AuthenticationDaoImplementation,main:349 - 1033
+xyz
+21:26:46,169  INFO AuthenticationDaoImplementation,main:360 - DAO: Successful Login
+21:32:07,880 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:32:07,883 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:32:07,954  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:32:07,954  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:32:07,955  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:32:07,955 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:32:07,955 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:32:08,024  INFO AuthenticationDaoImplementation,main:163 - 101
+Pooja
+1234
+STUDENT
+pooja@gmail.com
+CSE
+F
+false
+false
+false
+0.0
+false
+21:32:08,028  INFO AuthenticationDaoImplementation,main:215 - DAO: Successful Login
+21:32:08,029 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:32:08,029 DEBUG AuthenticationDaoImplementation,main:238 - <----DAO: Authenticate Professor----->
+21:32:08,075  INFO AuthenticationDaoImplementation,main:272 - 102
+abc
+21:32:08,088 ERROR AuthenticationDaoImplementation,main:315 - Column 'professorId' in where clause is ambiguous
+21:32:08,088 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:32:08,088 DEBUG AuthenticationDaoImplementation,main:333 - <----DAO: Authenticate Admin----->
+21:32:08,123  INFO AuthenticationDaoImplementation,main:363 - 1033
+xyz
+21:32:08,124  INFO AuthenticationDaoImplementation,main:374 - DAO: Successful Login
+21:39:52,695 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:39:52,697 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:39:52,750  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:39:52,750  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:39:52,750  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:39:52,750 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:39:52,750 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:39:52,800  INFO AuthenticationDaoImplementation,main:163 - 101
+Pooja
+1234
+STUDENT
+pooja@gmail.com
+CSE
+F
+false
+false
+false
+0.0
+false
+21:39:52,803  INFO AuthenticationDaoImplementation,main:215 - DAO: Successful Login
+21:39:52,803 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:39:52,804 DEBUG AuthenticationDaoImplementation,main:238 - <----DAO: Authenticate Professor----->
+21:39:52,841  INFO AuthenticationDaoImplementation,main:272 - 102
+abc
+21:39:52,849 ERROR AuthenticationDaoImplementation,main:315 - Column 'professorId' in where clause is ambiguous
+21:39:52,850 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:39:52,850 DEBUG AuthenticationDaoImplementation,main:333 - <----DAO: Authenticate Admin----->
+21:39:52,878  INFO AuthenticationDaoImplementation,main:363 - 1033
+xyz
+21:39:52,878  INFO AuthenticationDaoImplementation,main:374 - DAO: Successful Login
+21:43:26,660 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:43:26,661 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:43:26,712  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:43:26,712  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:43:26,712  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:43:26,713 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:43:26,713 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:43:26,763  INFO AuthenticationDaoImplementation,main:163 - 101
+Pooja
+1234
+STUDENT
+pooja@gmail.com
+CSE
+F
+false
+false
+false
+0.0
+false
+21:43:26,767  INFO AuthenticationDaoImplementation,main:215 - DAO: Successful Login
+21:43:26,768 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:43:26,768 DEBUG AuthenticationDaoImplementation,main:238 - <----DAO: Authenticate Professor----->
+21:43:26,810  INFO AuthenticationDaoImplementation,main:272 - 102
+abc
+21:43:26,811  INFO AuthenticationDaoImplementation,main:310 - DAO: Successful Login
+21:43:26,811 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:43:26,812 DEBUG AuthenticationDaoImplementation,main:333 - <----DAO: Authenticate Admin----->
+21:43:26,852  INFO AuthenticationDaoImplementation,main:363 - 1033
+xyz
+21:43:26,853  INFO AuthenticationDaoImplementation,main:374 - DAO: Successful Login
+21:46:00,853 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:46:00,855 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:46:00,910  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:46:00,911  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:46:00,911  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:46:00,911 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:46:00,911 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:46:00,953  INFO AuthenticationDaoImplementation,main:218 - DAO: Successful Login
+21:46:00,953 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:46:00,953 DEBUG AuthenticationDaoImplementation,main:241 - <----DAO: Authenticate Professor----->
+21:46:00,986  INFO AuthenticationDaoImplementation,main:275 - 102
+abc
+21:46:00,988  INFO AuthenticationDaoImplementation,main:313 - DAO: Successful Login
+21:46:00,988 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:46:00,988 DEBUG AuthenticationDaoImplementation,main:336 - <----DAO: Authenticate Admin----->
+21:46:01,015  INFO AuthenticationDaoImplementation,main:366 - 1033
+xyz
+21:46:01,015  INFO AuthenticationDaoImplementation,main:377 - DAO: Successful Login
+21:46:01,015 DEBUG AuthenticationService,main:75 - <----Register new student----->
+21:46:01,015 DEBUG AuthenticationDaoImplementation,main:402 - <----DAO: Register new student----->
+21:46:01,041 DEBUG AuthenticationDaoImplementation,main:466 - Getting count of users
+21:46:01,101 ERROR AuthenticationDaoImplementation,main:457 - No value specified for parameter 2
+21:46:37,420 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:46:37,422 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:46:37,465  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:46:37,465  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:46:37,466  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:46:37,466 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:46:37,466 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:46:37,494  INFO AuthenticationDaoImplementation,main:218 - DAO: Successful Login
+21:46:37,494 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:46:37,495 DEBUG AuthenticationDaoImplementation,main:241 - <----DAO: Authenticate Professor----->
+21:46:37,528  INFO AuthenticationDaoImplementation,main:275 - 102
+abc
+21:46:37,530  INFO AuthenticationDaoImplementation,main:313 - DAO: Successful Login
+21:46:37,531 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:46:37,531 DEBUG AuthenticationDaoImplementation,main:336 - <----DAO: Authenticate Admin----->
+21:46:37,559  INFO AuthenticationDaoImplementation,main:366 - 1033
+xyz
+21:46:37,560  INFO AuthenticationDaoImplementation,main:377 - DAO: Successful Login
+21:46:37,560 DEBUG AuthenticationService,main:75 - <----Register new student----->
+21:46:37,560 DEBUG AuthenticationDaoImplementation,main:402 - <----DAO: Register new student----->
+21:46:37,589 DEBUG AuthenticationDaoImplementation,main:466 - Getting count of users
+21:46:37,696 ERROR AuthenticationDaoImplementation,main:457 - No value specified for parameter 2
+21:47:13,897 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:47:13,899 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:47:13,957  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:47:13,957  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:47:13,958  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:47:13,958 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:47:13,958 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:47:13,994  INFO AuthenticationDaoImplementation,main:218 - DAO: Successful Login
+21:47:13,994 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:47:13,994 DEBUG AuthenticationDaoImplementation,main:241 - <----DAO: Authenticate Professor----->
+21:47:14,023  INFO AuthenticationDaoImplementation,main:275 - 102
+abc
+21:47:14,024  INFO AuthenticationDaoImplementation,main:313 - DAO: Successful Login
+21:47:14,025 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:47:14,025 DEBUG AuthenticationDaoImplementation,main:336 - <----DAO: Authenticate Admin----->
+21:47:14,053  INFO AuthenticationDaoImplementation,main:366 - 1033
+xyz
+21:47:14,053  INFO AuthenticationDaoImplementation,main:377 - DAO: Successful Login
+21:47:14,053 DEBUG AuthenticationService,main:75 - <----Register new student----->
+21:47:14,053 DEBUG AuthenticationDaoImplementation,main:402 - <----DAO: Register new student----->
+21:47:14,086 DEBUG AuthenticationDaoImplementation,main:466 - Getting count of users
+21:47:14,119  INFO AuthenticationDaoImplementation,main:428 - 104
+21:47:14,125 ERROR AuthenticationDaoImplementation,main:457 - No value specified for parameter 2
+21:47:49,453 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+21:47:49,455 DEBUG AuthenticationDaoImplementation,main:29 - <----DAO: Authenticate User----->
+21:47:49,514  INFO AuthenticationDaoImplementation,main:58 - 101
+Pooja
+21:47:49,514  INFO AuthenticationDaoImplementation,main:63 - Got password1234
+21:47:49,515  INFO AuthenticationDaoImplementation,main:71 - DAO: Successful Login
+21:47:49,515 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+21:47:49,515 DEBUG AuthenticationDaoImplementation,main:93 - <----DAO: Authenticate Student----->
+21:47:49,546  INFO AuthenticationDaoImplementation,main:218 - DAO: Successful Login
+21:47:49,546 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+21:47:49,547 DEBUG AuthenticationDaoImplementation,main:241 - <----DAO: Authenticate Professor----->
+21:47:49,588  INFO AuthenticationDaoImplementation,main:275 - 102
+abc
+21:47:49,591  INFO AuthenticationDaoImplementation,main:313 - DAO: Successful Login
+21:47:49,592 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+21:47:49,592 DEBUG AuthenticationDaoImplementation,main:336 - <----DAO: Authenticate Admin----->
+21:47:49,620  INFO AuthenticationDaoImplementation,main:366 - 1033
+xyz
+21:47:49,620  INFO AuthenticationDaoImplementation,main:377 - DAO: Successful Login
+21:47:49,620 DEBUG AuthenticationService,main:75 - <----Register new student----->
+21:47:49,620 DEBUG AuthenticationDaoImplementation,main:402 - <----DAO: Register new student----->
+21:47:49,644 DEBUG AuthenticationDaoImplementation,main:466 - Getting count of users
+21:47:49,669  INFO AuthenticationDaoImplementation,main:428 - 104
+21:47:49,780 ERROR AuthenticationDaoImplementation,main:457 - No value specified for parameter 2
+22:03:58,402 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:03:58,427 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:03:58,545  INFO AuthenticationDaoImplementation,main:83 - 101
+pooja
+22:03:58,545  INFO AuthenticationDaoImplementation,main:88 - Got password1234
+22:03:58,545  INFO AuthenticationDaoImplementation,main:96 - DAO: Successful Login
+22:03:58,546 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:03:58,546 DEBUG AuthenticationDaoImplementation,main:118 - <----DAO: Authenticate Student----->
+22:03:58,592 ERROR AuthenticationDaoImplementation,main:233 - Table 'Test.usertablele' doesn't exist
+22:03:58,593 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:03:58,593 DEBUG AuthenticationDaoImplementation,main:251 - <----DAO: Authenticate Professor----->
+22:03:58,625  INFO AuthenticationDaoImplementation,main:285 - 0
+null
+22:03:58,625  INFO AuthenticationDaoImplementation,main:290 - DAO: Unsuccessful Login
+22:03:58,625 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:03:58,625 DEBUG AuthenticationDaoImplementation,main:345 - <----DAO: Authenticate Admin----->
+22:03:58,652 ERROR AuthenticationDaoImplementation,main:390 - Unknown column 'amdintable.userId' in 'on clause'
+22:03:58,653 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:03:58,653 DEBUG AuthenticationDaoImplementation,main:411 - <----DAO: Register new student----->
+22:03:58,738 ERROR AuthenticationDaoImplementation,main:469 - No value specified for parameter 1
+22:05:35,512 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:05:35,514 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:05:35,592  INFO AuthenticationDaoImplementation,main:83 - 101
+pooja
+22:05:35,592  INFO AuthenticationDaoImplementation,main:88 - Got password1234
+22:05:35,592  INFO AuthenticationDaoImplementation,main:96 - DAO: Successful Login
+22:05:35,593 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:05:35,593 DEBUG AuthenticationDaoImplementation,main:118 - <----DAO: Authenticate Student----->
+22:05:35,634 ERROR AuthenticationDaoImplementation,main:233 - Table 'Test.usertablele' doesn't exist
+22:05:35,635 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:05:35,635 DEBUG AuthenticationDaoImplementation,main:251 - <----DAO: Authenticate Professor----->
+22:05:35,667  INFO AuthenticationDaoImplementation,main:285 - 0
+null
+22:05:35,668  INFO AuthenticationDaoImplementation,main:290 - DAO: Unsuccessful Login
+22:05:35,668 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:05:35,668 DEBUG AuthenticationDaoImplementation,main:345 - <----DAO: Authenticate Admin----->
+22:05:35,707 ERROR AuthenticationDaoImplementation,main:390 - Unknown column 'amdintable.userId' in 'on clause'
+22:05:35,708 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:05:35,708 DEBUG AuthenticationDaoImplementation,main:411 - <----DAO: Register new student----->
+22:05:35,744  INFO AuthenticationDaoImplementation,main:430 - DAO: Registration Unsuccessful! Email exists
+22:06:11,033 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:06:11,036 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:06:11,104  INFO AuthenticationDaoImplementation,main:83 - 101
+pooja
+22:06:11,104  INFO AuthenticationDaoImplementation,main:88 - Got password1234
+22:06:11,105  INFO AuthenticationDaoImplementation,main:96 - DAO: Successful Login
+22:06:11,105 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:06:11,105 DEBUG AuthenticationDaoImplementation,main:118 - <----DAO: Authenticate Student----->
+22:06:11,144 ERROR AuthenticationDaoImplementation,main:233 - Unknown column 'usertable' in 'on clause'
+22:06:11,145 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:06:11,145 DEBUG AuthenticationDaoImplementation,main:251 - <----DAO: Authenticate Professor----->
+22:06:11,192  INFO AuthenticationDaoImplementation,main:285 - 0
+null
+22:06:11,194  INFO AuthenticationDaoImplementation,main:290 - DAO: Unsuccessful Login
+22:06:11,195 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:06:11,196 DEBUG AuthenticationDaoImplementation,main:345 - <----DAO: Authenticate Admin----->
+22:06:11,244 ERROR AuthenticationDaoImplementation,main:390 - Unknown column 'amdintable.userId' in 'on clause'
+22:06:11,245 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:06:11,245 DEBUG AuthenticationDaoImplementation,main:411 - <----DAO: Register new student----->
+22:06:11,277  INFO AuthenticationDaoImplementation,main:430 - DAO: Registration Unsuccessful! Email exists
+22:06:42,711 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:06:42,714 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:06:42,788  INFO AuthenticationDaoImplementation,main:83 - 101
+pooja
+22:06:42,789  INFO AuthenticationDaoImplementation,main:88 - Got password1234
+22:06:42,789  INFO AuthenticationDaoImplementation,main:96 - DAO: Successful Login
+22:06:42,789 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:06:42,790 DEBUG AuthenticationDaoImplementation,main:118 - <----DAO: Authenticate Student----->
+22:06:42,863  INFO AuthenticationDaoImplementation,main:176 - 0
+null
+null
+null
+null
+null
+null
+false
+false
+false
+0.0
+false
+22:06:42,863  INFO AuthenticationDaoImplementation,main:186 - DAO: Unsuccessful Login
+22:06:42,863 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:06:42,863 DEBUG AuthenticationDaoImplementation,main:251 - <----DAO: Authenticate Professor----->
+22:06:42,926  INFO AuthenticationDaoImplementation,main:285 - 0
+null
+22:06:42,926  INFO AuthenticationDaoImplementation,main:290 - DAO: Unsuccessful Login
+22:06:42,927 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:06:42,927 DEBUG AuthenticationDaoImplementation,main:345 - <----DAO: Authenticate Admin----->
+22:06:42,983 ERROR AuthenticationDaoImplementation,main:390 - Unknown column 'amdintable.userId' in 'on clause'
+22:06:42,984 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:06:42,984 DEBUG AuthenticationDaoImplementation,main:411 - <----DAO: Register new student----->
+22:06:43,028  INFO AuthenticationDaoImplementation,main:430 - DAO: Registration Unsuccessful! Email exists
+22:09:42,369 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:09:42,373 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:09:42,449  INFO AuthenticationDaoImplementation,main:83 - 101
+pooja
+22:09:42,450  INFO AuthenticationDaoImplementation,main:88 - Got password1234
+22:09:42,450  INFO AuthenticationDaoImplementation,main:96 - DAO: Successful Login
+22:09:42,450 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:09:42,451 DEBUG AuthenticationDaoImplementation,main:118 - <----DAO: Authenticate Student----->
+22:09:42,519  INFO AuthenticationDaoImplementation,main:131 - 0
+null
+null
+null
+null
+null
+null
+false
+false
+false
+0.0
+false
+22:09:42,523  INFO AuthenticationDaoImplementation,main:182 - 0
+null
+null
+null
+null
+null
+null
+false
+false
+false
+0.0
+false
+22:09:42,524  INFO AuthenticationDaoImplementation,main:192 - DAO: Unsuccessful Login
+22:09:42,524 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:09:42,524 DEBUG AuthenticationDaoImplementation,main:257 - <----DAO: Authenticate Professor----->
+22:09:42,600  INFO AuthenticationDaoImplementation,main:291 - 0
+null
+22:09:42,602  INFO AuthenticationDaoImplementation,main:296 - DAO: Unsuccessful Login
+22:09:42,603 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:09:42,605 DEBUG AuthenticationDaoImplementation,main:351 - <----DAO: Authenticate Admin----->
+22:09:42,667 ERROR AuthenticationDaoImplementation,main:396 - Unknown column 'amdintable.userId' in 'on clause'
+22:09:42,668 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:09:42,669 DEBUG AuthenticationDaoImplementation,main:417 - <----DAO: Register new student----->
+22:09:42,710  INFO AuthenticationDaoImplementation,main:436 - DAO: Registration Unsuccessful! Email exists
+22:18:47,651 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:18:47,654 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:18:47,717 ERROR AuthenticationDaoImplementation,main:107 - Operation not allowed for a result set of type ResultSet.TYPE_FORWARD_ONLY.
+22:18:47,717 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:18:47,717 DEBUG AuthenticationDaoImplementation,main:124 - <----DAO: Authenticate Student----->
+22:18:47,757  INFO AuthenticationDaoImplementation,main:137 - DAO: Student doesn't exists
+22:18:47,758 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:18:47,758 DEBUG AuthenticationDaoImplementation,main:263 - <----DAO: Authenticate Professor----->
+22:18:47,789  INFO AuthenticationDaoImplementation,main:276 - DAO: Professor doesn't exists
+22:18:47,790 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:18:47,790 DEBUG AuthenticationDaoImplementation,main:362 - <----DAO: Authenticate Admin----->
+22:18:47,825 ERROR AuthenticationDaoImplementation,main:412 - Unknown column 'amdintable.userId' in 'on clause'
+22:18:47,826 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:18:47,826 DEBUG AuthenticationDaoImplementation,main:433 - <----DAO: Register new student----->
+22:18:47,860  INFO AuthenticationDaoImplementation,main:452 - DAO: Registration Unsuccessful! Email exists
+22:20:24,586 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:20:24,588 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:20:24,665  INFO AuthenticationDaoImplementation,main:90 - 101
+pooja
+22:20:24,666  INFO AuthenticationDaoImplementation,main:95 - Got password1234
+22:20:24,666  INFO AuthenticationDaoImplementation,main:103 - DAO: Successful Login
+22:20:24,666 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:20:24,666 DEBUG AuthenticationDaoImplementation,main:125 - <----DAO: Authenticate Student----->
+22:20:24,703  INFO AuthenticationDaoImplementation,main:138 - DAO: Student doesn't exists
+22:20:24,704 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:20:24,704 DEBUG AuthenticationDaoImplementation,main:264 - <----DAO: Authenticate Professor----->
+22:20:24,734  INFO AuthenticationDaoImplementation,main:277 - DAO: Professor doesn't exists
+22:20:24,734 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:20:24,735 DEBUG AuthenticationDaoImplementation,main:363 - <----DAO: Authenticate Admin----->
+22:20:24,767 ERROR AuthenticationDaoImplementation,main:413 - Unknown column 'amdintable.userId' in 'on clause'
+22:20:24,767 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:20:24,768 DEBUG AuthenticationDaoImplementation,main:434 - <----DAO: Register new student----->
+22:20:24,802  INFO AuthenticationDaoImplementation,main:453 - DAO: Registration Unsuccessful! Email exists
+22:21:27,686 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:21:27,689 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:21:27,761  INFO AuthenticationDaoImplementation,main:90 - 101
+pooja
+22:21:27,761  INFO AuthenticationDaoImplementation,main:95 - Got password1234
+22:21:27,762  INFO AuthenticationDaoImplementation,main:103 - DAO: Successful Login
+22:21:27,762 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:21:27,762 DEBUG AuthenticationDaoImplementation,main:125 - <----DAO: Authenticate Student----->
+22:21:27,795  INFO AuthenticationDaoImplementation,main:139 - DAO: Student doesn't exists
+22:21:27,795 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:21:27,796 DEBUG AuthenticationDaoImplementation,main:265 - <----DAO: Authenticate Professor----->
+22:21:27,828  INFO AuthenticationDaoImplementation,main:279 - DAO: Professor doesn't exists
+22:21:27,828 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:21:27,829 DEBUG AuthenticationDaoImplementation,main:365 - <----DAO: Authenticate Admin----->
+22:21:27,863 ERROR AuthenticationDaoImplementation,main:416 - Unknown column 'amdintable.userId' in 'on clause'
+22:21:27,864 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:21:27,864 DEBUG AuthenticationDaoImplementation,main:437 - <----DAO: Register new student----->
+22:21:27,893  INFO AuthenticationDaoImplementation,main:456 - DAO: Registration Unsuccessful! Email exists
+22:23:24,969 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:23:24,971 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:23:25,034  INFO AuthenticationDaoImplementation,main:90 - 101
+pooja
+22:23:25,034  INFO AuthenticationDaoImplementation,main:95 - Got password1234
+22:23:25,034  INFO AuthenticationDaoImplementation,main:103 - DAO: Successful Login
+22:23:25,035 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:23:25,035 DEBUG AuthenticationDaoImplementation,main:125 - <----DAO: Authenticate Student----->
+22:23:25,070  INFO AuthenticationDaoImplementation,main:139 - DAO: Student doesn't exists
+22:23:25,070 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:23:25,070 DEBUG AuthenticationDaoImplementation,main:265 - <----DAO: Authenticate Professor----->
+22:23:25,095  INFO AuthenticationDaoImplementation,main:279 - DAO: Professor doesn't exists
+22:23:25,095 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:23:25,095 DEBUG AuthenticationDaoImplementation,main:365 - <----DAO: Authenticate Admin----->
+22:23:25,128  INFO AuthenticationDaoImplementation,main:378 - DAO: Admin doesn't exists
+22:23:25,128 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:23:25,128 DEBUG AuthenticationDaoImplementation,main:437 - <----DAO: Register new student----->
+22:23:25,158  INFO AuthenticationDaoImplementation,main:456 - DAO: Registration Unsuccessful! Email exists
+22:24:16,364 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:24:16,366 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:24:16,442  INFO AuthenticationDaoImplementation,main:90 - 101
+pooja
+22:24:16,442  INFO AuthenticationDaoImplementation,main:95 - Got password1234
+22:24:16,443  INFO AuthenticationDaoImplementation,main:103 - DAO: Successful Login
+22:24:16,443 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:24:16,443 DEBUG AuthenticationDaoImplementation,main:125 - <----DAO: Authenticate Student----->
+22:24:16,500  INFO AuthenticationDaoImplementation,main:190 - 102
+vennela
+1234
+STUDENT
+ven@gmail.com
+cs
+f
+false
+false
+false
+10056.0
+false
+22:24:16,516  INFO AuthenticationDaoImplementation,main:242 - DAO: Successful Login
+22:24:16,516 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:24:16,516 DEBUG AuthenticationDaoImplementation,main:265 - <----DAO: Authenticate Professor----->
+22:24:16,553  INFO AuthenticationDaoImplementation,main:305 - 104
+nitin
+22:24:16,557  INFO AuthenticationDaoImplementation,main:342 - DAO: Successful Login
+22:24:16,561 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:24:16,561 DEBUG AuthenticationDaoImplementation,main:365 - <----DAO: Authenticate Admin----->
+22:24:16,605  INFO AuthenticationDaoImplementation,main:401 - 106
+vikram
+22:24:16,606  INFO AuthenticationDaoImplementation,main:412 - DAO: Successful Login
+22:24:16,606 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:24:16,607 DEBUG AuthenticationDaoImplementation,main:437 - <----DAO: Register new student----->
+22:24:16,644  INFO AuthenticationDaoImplementation,main:456 - DAO: Registration Unsuccessful! Email exists
+22:27:35,438 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:27:35,441 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:27:35,506  INFO AuthenticationDaoImplementation,main:90 - 101
+pooja
+22:27:35,506  INFO AuthenticationDaoImplementation,main:95 - Got password1234
+22:27:35,507  INFO AuthenticationDaoImplementation,main:103 - DAO: Successful Login
+22:27:35,507 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:27:35,507 DEBUG AuthenticationDaoImplementation,main:125 - <----DAO: Authenticate Student----->
+22:27:35,565  INFO AuthenticationDaoImplementation,main:190 - 102
+vennela
+1234
+STUDENT
+ven@gmail.com
+cs
+f
+false
+false
+false
+10056.0
+false
+22:27:35,575  INFO AuthenticationDaoImplementation,main:242 - DAO: Successful Login
+22:27:35,576 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:27:35,576 DEBUG AuthenticationDaoImplementation,main:265 - <----DAO: Authenticate Professor----->
+22:27:35,618  INFO AuthenticationDaoImplementation,main:305 - 104
+nitin
+22:27:35,620  INFO AuthenticationDaoImplementation,main:342 - DAO: Successful Login
+22:27:35,621 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:27:35,621 DEBUG AuthenticationDaoImplementation,main:365 - <----DAO: Authenticate Admin----->
+22:27:35,670  INFO AuthenticationDaoImplementation,main:401 - 106
+vikram
+22:27:35,670  INFO AuthenticationDaoImplementation,main:412 - DAO: Successful Login
+22:27:35,670 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:27:35,670 DEBUG AuthenticationDaoImplementation,main:437 - <----DAO: Register new student----->
+22:27:35,708  INFO AuthenticationDaoImplementation,main:455 - ram@gmail.com
+22:27:35,708  INFO AuthenticationDaoImplementation,main:457 - DAO: Registration Unsuccessful! Email exists
+22:28:41,911 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:28:41,913 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:28:41,980  INFO AuthenticationDaoImplementation,main:90 - 101
+pooja
+22:28:41,980  INFO AuthenticationDaoImplementation,main:95 - Got password1234
+22:28:41,981  INFO AuthenticationDaoImplementation,main:103 - DAO: Successful Login
+22:28:41,981 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:28:41,981 DEBUG AuthenticationDaoImplementation,main:125 - <----DAO: Authenticate Student----->
+22:28:42,056  INFO AuthenticationDaoImplementation,main:190 - 102
+vennela
+1234
+STUDENT
+ven@gmail.com
+cs
+f
+false
+false
+false
+10056.0
+false
+22:28:42,066  INFO AuthenticationDaoImplementation,main:242 - DAO: Successful Login
+22:28:42,066 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:28:42,067 DEBUG AuthenticationDaoImplementation,main:265 - <----DAO: Authenticate Professor----->
+22:28:42,112  INFO AuthenticationDaoImplementation,main:305 - 104
+nitin
+22:28:42,114  INFO AuthenticationDaoImplementation,main:342 - DAO: Successful Login
+22:28:42,115 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:28:42,115 DEBUG AuthenticationDaoImplementation,main:365 - <----DAO: Authenticate Admin----->
+22:28:42,154  INFO AuthenticationDaoImplementation,main:401 - 106
+vikram
+22:28:42,154  INFO AuthenticationDaoImplementation,main:412 - DAO: Successful Login
+22:28:42,154 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:28:42,154 DEBUG AuthenticationDaoImplementation,main:437 - <----DAO: Register new student----->
+22:28:42,188  INFO AuthenticationDaoImplementation,main:455 - ram@gmail.com
+22:28:42,279 ERROR AuthenticationDaoImplementation,main:496 - No value specified for parameter 1
+22:31:51,279 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:31:51,282 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:31:51,356  INFO AuthenticationDaoImplementation,main:90 - 101
+pooja
+22:31:51,357  INFO AuthenticationDaoImplementation,main:95 - Got password1234
+22:31:51,357  INFO AuthenticationDaoImplementation,main:103 - DAO: Successful Login
+22:31:51,358 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:31:51,358 DEBUG AuthenticationDaoImplementation,main:125 - <----DAO: Authenticate Student----->
+22:31:51,414  INFO AuthenticationDaoImplementation,main:190 - 102
+vennela
+1234
+STUDENT
+ven@gmail.com
+cs
+f
+false
+false
+false
+10056.0
+false
+22:31:51,422  INFO AuthenticationDaoImplementation,main:242 - DAO: Successful Login
+22:31:51,422 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:31:51,422 DEBUG AuthenticationDaoImplementation,main:265 - <----DAO: Authenticate Professor----->
+22:31:51,451  INFO AuthenticationDaoImplementation,main:305 - 104
+nitin
+22:31:51,454  INFO AuthenticationDaoImplementation,main:342 - DAO: Successful Login
+22:31:51,454 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:31:51,454 DEBUG AuthenticationDaoImplementation,main:365 - <----DAO: Authenticate Admin----->
+22:31:51,497  INFO AuthenticationDaoImplementation,main:401 - 106
+vikram
+22:31:51,498  INFO AuthenticationDaoImplementation,main:412 - DAO: Successful Login
+22:31:51,498 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:31:51,498 DEBUG AuthenticationDaoImplementation,main:437 - <----DAO: Register new student----->
+22:31:51,533  INFO AuthenticationDaoImplementation,main:455 - RAM@gmail.com
+22:31:51,535  INFO AuthenticationDaoImplementation,main:457 - DAO: Registration Unsuccessful! Email exists
+22:33:02,122 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:33:02,125 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:33:02,188  INFO AuthenticationDaoImplementation,main:90 - 101
+pooja
+22:33:02,188  INFO AuthenticationDaoImplementation,main:95 - Got password1234
+22:33:02,188  INFO AuthenticationDaoImplementation,main:103 - DAO: Successful Login
+22:33:02,188 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:33:02,189 DEBUG AuthenticationDaoImplementation,main:125 - <----DAO: Authenticate Student----->
+22:33:02,231  INFO AuthenticationDaoImplementation,main:190 - 102
+vennela
+1234
+STUDENT
+ven@gmail.com
+cs
+f
+false
+false
+false
+10056.0
+false
+22:33:02,238  INFO AuthenticationDaoImplementation,main:242 - DAO: Successful Login
+22:33:02,238 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:33:02,239 DEBUG AuthenticationDaoImplementation,main:265 - <----DAO: Authenticate Professor----->
+22:33:02,266  INFO AuthenticationDaoImplementation,main:305 - 104
+nitin
+22:33:02,268  INFO AuthenticationDaoImplementation,main:342 - DAO: Successful Login
+22:33:02,268 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:33:02,268 DEBUG AuthenticationDaoImplementation,main:365 - <----DAO: Authenticate Admin----->
+22:33:02,292  INFO AuthenticationDaoImplementation,main:401 - 106
+vikram
+22:33:02,292  INFO AuthenticationDaoImplementation,main:412 - DAO: Successful Login
+22:33:02,293 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:33:02,293 DEBUG AuthenticationDaoImplementation,main:437 - <----DAO: Register new student----->
+22:33:02,333  INFO AuthenticationDaoImplementation,main:455 - 
+22:33:02,461 ERROR AuthenticationDaoImplementation,main:497 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'email='RAM@gmail.com'' at line 1
+22:35:25,355 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:35:25,357 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:35:25,437  INFO AuthenticationDaoImplementation,main:90 - 101
+pooja
+22:35:25,437  INFO AuthenticationDaoImplementation,main:95 - Got password1234
+22:35:25,437  INFO AuthenticationDaoImplementation,main:103 - DAO: Successful Login
+22:35:25,438 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:35:25,438 DEBUG AuthenticationDaoImplementation,main:125 - <----DAO: Authenticate Student----->
+22:35:25,493  INFO AuthenticationDaoImplementation,main:190 - 102
+vennela
+1234
+STUDENT
+ven@gmail.com
+cs
+f
+false
+false
+false
+10056.0
+false
+22:35:25,502  INFO AuthenticationDaoImplementation,main:242 - DAO: Successful Login
+22:35:25,502 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:35:25,502 DEBUG AuthenticationDaoImplementation,main:265 - <----DAO: Authenticate Professor----->
+22:35:25,532  INFO AuthenticationDaoImplementation,main:305 - 104
+nitin
+22:35:25,535  INFO AuthenticationDaoImplementation,main:342 - DAO: Successful Login
+22:35:25,536 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:35:25,536 DEBUG AuthenticationDaoImplementation,main:365 - <----DAO: Authenticate Admin----->
+22:35:25,587  INFO AuthenticationDaoImplementation,main:401 - 106
+vikram
+22:35:25,588  INFO AuthenticationDaoImplementation,main:412 - DAO: Successful Login
+22:35:25,588 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:35:25,588 DEBUG AuthenticationDaoImplementation,main:437 - <----DAO: Register new student----->
+22:35:25,624  INFO AuthenticationDaoImplementation,main:455 - 
+22:35:25,723  INFO AuthenticationDaoImplementation,main:472 - DAO: Updated User table
+22:35:25,731 ERROR AuthenticationDaoImplementation,main:500 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'email='RAM@gmail.com'' at line 1
+22:36:28,067 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:36:28,070 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:36:28,139  INFO AuthenticationDaoImplementation,main:90 - 101
+pooja
+22:36:28,139  INFO AuthenticationDaoImplementation,main:95 - Got password1234
+22:36:28,139  INFO AuthenticationDaoImplementation,main:103 - DAO: Successful Login
+22:36:28,139 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:36:28,140 DEBUG AuthenticationDaoImplementation,main:125 - <----DAO: Authenticate Student----->
+22:36:28,196  INFO AuthenticationDaoImplementation,main:190 - 102
+vennela
+1234
+STUDENT
+ven@gmail.com
+cs
+f
+false
+false
+false
+10056.0
+false
+22:36:28,205  INFO AuthenticationDaoImplementation,main:242 - DAO: Successful Login
+22:36:28,206 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:36:28,206 DEBUG AuthenticationDaoImplementation,main:265 - <----DAO: Authenticate Professor----->
+22:36:28,239  INFO AuthenticationDaoImplementation,main:305 - 104
+nitin
+22:36:28,241  INFO AuthenticationDaoImplementation,main:342 - DAO: Successful Login
+22:36:28,242 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:36:28,242 DEBUG AuthenticationDaoImplementation,main:365 - <----DAO: Authenticate Admin----->
+22:36:28,276  INFO AuthenticationDaoImplementation,main:401 - 106
+vikram
+22:36:28,276  INFO AuthenticationDaoImplementation,main:412 - DAO: Successful Login
+22:36:28,277 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:36:28,277 DEBUG AuthenticationDaoImplementation,main:437 - <----DAO: Register new student----->
+22:36:28,307  INFO AuthenticationDaoImplementation,main:455 - RAM@gmail.com
+22:36:28,308  INFO AuthenticationDaoImplementation,main:457 - DAO: Registration Unsuccessful! Email exists
+22:36:51,758 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:36:51,761 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:36:51,835  INFO AuthenticationDaoImplementation,main:90 - 101
+pooja
+22:36:51,836  INFO AuthenticationDaoImplementation,main:95 - Got password1234
+22:36:51,836  INFO AuthenticationDaoImplementation,main:103 - DAO: Successful Login
+22:36:51,837 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:36:51,837 DEBUG AuthenticationDaoImplementation,main:125 - <----DAO: Authenticate Student----->
+22:36:51,905  INFO AuthenticationDaoImplementation,main:190 - 102
+vennela
+1234
+STUDENT
+ven@gmail.com
+cs
+f
+false
+false
+false
+10056.0
+false
+22:36:51,914  INFO AuthenticationDaoImplementation,main:242 - DAO: Successful Login
+22:36:51,915 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:36:51,915 DEBUG AuthenticationDaoImplementation,main:265 - <----DAO: Authenticate Professor----->
+22:36:51,958  INFO AuthenticationDaoImplementation,main:305 - 104
+nitin
+22:36:51,962  INFO AuthenticationDaoImplementation,main:342 - DAO: Successful Login
+22:36:51,962 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:36:51,963 DEBUG AuthenticationDaoImplementation,main:365 - <----DAO: Authenticate Admin----->
+22:36:52,005  INFO AuthenticationDaoImplementation,main:401 - 106
+vikram
+22:36:52,005  INFO AuthenticationDaoImplementation,main:412 - DAO: Successful Login
+22:36:52,005 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:36:52,006 DEBUG AuthenticationDaoImplementation,main:437 - <----DAO: Register new student----->
+22:36:52,042  INFO AuthenticationDaoImplementation,main:455 - 
+22:36:52,172  INFO AuthenticationDaoImplementation,main:472 - DAO: Updated User table
+22:36:52,174  INFO AuthenticationDaoImplementation,main:483 - 111
+22:36:52,184 ERROR AuthenticationDaoImplementation,main:500 - Column count doesn't match value count at row 1
+22:40:49,189 DEBUG AuthenticationService,main:20 - <----Authenticate User----->
+22:40:49,192 DEBUG AuthenticationDaoImplementation,main:55 - <----DAO: Authenticate User----->
+22:40:49,278  INFO AuthenticationDaoImplementation,main:90 - 101
+pooja
+22:40:49,279  INFO AuthenticationDaoImplementation,main:95 - Got password1234
+22:40:49,279  INFO AuthenticationDaoImplementation,main:103 - DAO: Successful Login
+22:40:49,279 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+22:40:49,280 DEBUG AuthenticationDaoImplementation,main:125 - <----DAO: Authenticate Student----->
+22:40:49,328  INFO AuthenticationDaoImplementation,main:190 - 102
+vennela
+1234
+STUDENT
+ven@gmail.com
+cs
+f
+false
+false
+false
+10056.0
+false
+22:40:49,340  INFO AuthenticationDaoImplementation,main:242 - DAO: Successful Login
+22:40:49,341 DEBUG AuthenticationService,main:46 - <----Authenticate Professor----->
+22:40:49,341 DEBUG AuthenticationDaoImplementation,main:265 - <----DAO: Authenticate Professor----->
+22:40:49,378  INFO AuthenticationDaoImplementation,main:305 - 104
+nitin
+22:40:49,380  INFO AuthenticationDaoImplementation,main:342 - DAO: Successful Login
+22:40:49,380 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+22:40:49,380 DEBUG AuthenticationDaoImplementation,main:365 - <----DAO: Authenticate Admin----->
+22:40:49,414  INFO AuthenticationDaoImplementation,main:401 - 106
+vikram
+22:40:49,414  INFO AuthenticationDaoImplementation,main:412 - DAO: Successful Login
+22:40:49,415 DEBUG AuthenticationService,main:75 - <----Register new student----->
+22:40:49,416 DEBUG AuthenticationDaoImplementation,main:437 - <----DAO: Register new student----->
+22:40:49,449  INFO AuthenticationDaoImplementation,main:455 - 
+22:40:49,530  INFO AuthenticationDaoImplementation,main:472 - DAO: Updated User table
+22:40:49,532  INFO AuthenticationDaoImplementation,main:483 - 112
+22:40:49,608  INFO AuthenticationDaoImplementation,main:495 - DAO: Registration successful
+00:19:54,640  INFO CRSApplication,main:12 - ***Welcome to Course Registration System***
+ 
+00:19:55,389  INFO UserCRSClient,main:76 - -----------------------------------------
+00:19:55,390  INFO UserCRSClient,main:77 - Select the User Type
+00:19:55,390  INFO UserCRSClient,main:78 - 1. Admin
+00:19:55,390  INFO UserCRSClient,main:79 - 2. Professor
+00:19:55,391  INFO UserCRSClient,main:80 - 3. Student
+00:19:55,391  INFO UserCRSClient,main:81 - 0. To exit
+00:19:55,391  INFO UserCRSClient,main:82 - -----------------------------------------
+00:20:03,873  INFO UserCRSClient,main:86 - Enter your credentials
+00:20:03,874  INFO UserCRSClient,main:87 - -----------------------------------------
+00:20:03,875  INFO UserCRSClient,main:88 - Enter email :
+00:20:23,524  INFO UserCRSClient,main:90 - Enter Password :
+00:20:30,191 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+00:20:30,193 DEBUG AuthenticationDaoImplementation,main:102 - <----DAO: Authenticate Student----->
+00:20:30,277 DEBUG AuthenticationDaoImplementation,main:210 - <----DAO: Getting registered courses list for studentId: 112 ----->
+00:20:30,309  INFO AuthenticationDaoImplementation,main:185 - DAO: Successful Login
+00:20:30,309 DEBUG StudentCRSClient,main:24 - 112
+00:20:30,309  INFO StudentCRSClient,main:183 - Enter your choice:
+00:20:30,310  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+00:20:30,310  INFO StudentCRSClient,main:185 - 2. Add a course
+00:20:30,312  INFO StudentCRSClient,main:186 - 3. Drop a course
+00:20:30,312  INFO StudentCRSClient,main:187 - 4. Register courses
+00:20:30,312  INFO StudentCRSClient,main:188 - 5. View registered courses
+00:20:30,312  INFO StudentCRSClient,main:189 - 6. View total semester fee
+00:20:30,313  INFO StudentCRSClient,main:190 - 7. Make fee payment
+00:20:30,313  INFO StudentCRSClient,main:191 - 8. View report card
+00:20:30,313  INFO StudentCRSClient,main:192 - 0. Logout
+00:20:35,131 DEBUG CourseDaoImplementation,main:20 - Getting course catalog
+00:20:35,134  INFO StudentCRSClient,main:268 - ***Course Catalogue***
+00:20:35,147  INFO StudentCRSClient,main:270 - Course ID: cs101    | Course Name: dsa    | Course Professor: nitin    | Course Fee: 456.0    | Course Description: data 
+00:20:35,147  INFO StudentCRSClient,main:270 - Course ID: cs102    | Course Name: dbms    | Course Professor: nitin    | Course Fee: 6864.0    | Course Description: data
+00:20:35,147  INFO StudentCRSClient,main:270 - Course ID: eee101    | Course Name: daa    | Course Professor: satyam    | Course Fee: 4123.0    | Course Description: dsts
+00:20:35,147  INFO StudentCRSClient,main:270 - Course ID: eee102    | Course Name: cn    | Course Professor: satyam    | Course Fee: 4582.0    | Course Description: data
+00:20:35,147  INFO StudentCRSClient,main:270 - Course ID: eee103    | Course Name: workshop    | Course Professor: satyam    | Course Fee: 643.0    | Course Description: data
+00:20:35,148  INFO StudentCRSClient,main:272 - <<-------------------------------------------------->>
+00:20:35,148  INFO StudentCRSClient,main:273 - 
+00:20:35,148  INFO StudentCRSClient,main:183 - Enter your choice:
+00:20:35,148  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+00:20:35,148  INFO StudentCRSClient,main:185 - 2. Add a course
+00:20:35,148  INFO StudentCRSClient,main:186 - 3. Drop a course
+00:20:35,148  INFO StudentCRSClient,main:187 - 4. Register courses
+00:20:35,149  INFO StudentCRSClient,main:188 - 5. View registered courses
+00:20:35,149  INFO StudentCRSClient,main:189 - 6. View total semester fee
+00:20:35,149  INFO StudentCRSClient,main:190 - 7. Make fee payment
+00:20:35,149  INFO StudentCRSClient,main:191 - 8. View report card
+00:20:35,149  INFO StudentCRSClient,main:192 - 0. Logout
+00:23:18,955  INFO StudentCRSClient,main:96 - Not enough course selected, 6 Courses are required!
+00:23:18,956  INFO StudentCRSClient,main:97 - <<-------------------------------------------------->>
+00:23:18,956  INFO StudentCRSClient,main:98 - 
+00:23:18,957  INFO StudentCRSClient,main:183 - Enter your choice:
+00:23:18,957  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+00:23:18,957  INFO StudentCRSClient,main:185 - 2. Add a course
+00:23:18,958  INFO StudentCRSClient,main:186 - 3. Drop a course
+00:23:18,958  INFO StudentCRSClient,main:187 - 4. Register courses
+00:23:18,959  INFO StudentCRSClient,main:188 - 5. View registered courses
+00:23:18,959  INFO StudentCRSClient,main:189 - 6. View total semester fee
+00:23:18,960  INFO StudentCRSClient,main:190 - 7. Make fee payment
+00:23:18,960  INFO StudentCRSClient,main:191 - 8. View report card
+00:23:18,960  INFO StudentCRSClient,main:192 - 0. Logout
+00:23:31,582  INFO StudentCRSClient,main:201 - Enter Course Id to be added : ----
+00:23:48,191  INFO CourseOperation,main:55 - Checking if the course exist
+00:23:48,192 DEBUG CourseDaoImplementation,main:84 - Checking whether the course exists in the Database
+00:23:48,243 DEBUG CourseDaoImplementation,main:96 - Course with course ID: cs101 exists.
+00:23:48,243  INFO StudentOperation,main:90 - Student is adding courses
+00:23:48,243  INFO StudentCRSClient,main:218 -  
+00:23:48,243  INFO StudentCRSClient,main:219 - Updated Course List ---- 
+00:23:48,243  INFO StudentCRSClient,main:223 - cs101
+00:23:48,244  INFO StudentCRSClient,main:225 - <<-------------------------------------------------->>
+00:23:48,244  INFO StudentCRSClient,main:226 - 
+00:23:48,244  INFO StudentCRSClient,main:55 - Successfully added course
+00:23:48,244  INFO StudentCRSClient,main:56 - <<-------------------------------------------------->>
+00:23:48,244  INFO StudentCRSClient,main:57 - 
+00:23:48,244  INFO StudentCRSClient,main:183 - Enter your choice:
+00:23:48,244  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+00:23:48,245  INFO StudentCRSClient,main:185 - 2. Add a course
+00:23:48,245  INFO StudentCRSClient,main:186 - 3. Drop a course
+00:23:48,245  INFO StudentCRSClient,main:187 - 4. Register courses
+00:23:48,245  INFO StudentCRSClient,main:188 - 5. View registered courses
+00:23:48,245  INFO StudentCRSClient,main:189 - 6. View total semester fee
+00:23:48,245  INFO StudentCRSClient,main:190 - 7. Make fee payment
+00:23:48,246  INFO StudentCRSClient,main:191 - 8. View report card
+00:23:48,246  INFO StudentCRSClient,main:192 - 0. Logout
+00:23:49,838  INFO StudentCRSClient,main:201 - Enter Course Id to be added : ----
+00:23:53,655  INFO CourseOperation,main:55 - Checking if the course exist
+00:23:53,656 DEBUG CourseDaoImplementation,main:84 - Checking whether the course exists in the Database
+00:23:53,690 DEBUG CourseDaoImplementation,main:96 - Course with course ID: cs102 exists.
+00:23:53,690  INFO StudentOperation,main:90 - Student is adding courses
+00:23:53,690  INFO StudentCRSClient,main:218 -  
+00:23:53,691  INFO StudentCRSClient,main:219 - Updated Course List ---- 
+00:23:53,691  INFO StudentCRSClient,main:223 - cs101
+00:23:53,691  INFO StudentCRSClient,main:223 - cs102
+00:23:53,691  INFO StudentCRSClient,main:225 - <<-------------------------------------------------->>
+00:23:53,691  INFO StudentCRSClient,main:226 - 
+00:23:53,691  INFO StudentCRSClient,main:55 - Successfully added course
+00:23:53,691  INFO StudentCRSClient,main:56 - <<-------------------------------------------------->>
+00:23:53,691  INFO StudentCRSClient,main:57 - 
+00:23:53,691  INFO StudentCRSClient,main:183 - Enter your choice:
+00:23:53,691  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+00:23:53,691  INFO StudentCRSClient,main:185 - 2. Add a course
+00:23:53,691  INFO StudentCRSClient,main:186 - 3. Drop a course
+00:23:53,692  INFO StudentCRSClient,main:187 - 4. Register courses
+00:23:53,692  INFO StudentCRSClient,main:188 - 5. View registered courses
+00:23:53,692  INFO StudentCRSClient,main:189 - 6. View total semester fee
+00:23:53,692  INFO StudentCRSClient,main:190 - 7. Make fee payment
+00:23:53,692  INFO StudentCRSClient,main:191 - 8. View report card
+00:23:53,692  INFO StudentCRSClient,main:192 - 0. Logout
+00:23:56,207  INFO StudentCRSClient,main:201 - Enter Course Id to be added : ----
+00:23:58,820  INFO CourseOperation,main:55 - Checking if the course exist
+00:23:58,821 DEBUG CourseDaoImplementation,main:84 - Checking whether the course exists in the Database
+00:23:58,864 DEBUG CourseDaoImplementation,main:96 - Course with course ID: eee101 exists.
+00:23:58,864  INFO StudentOperation,main:90 - Student is adding courses
+00:23:58,864  INFO StudentCRSClient,main:218 -  
+00:23:58,864  INFO StudentCRSClient,main:219 - Updated Course List ---- 
+00:23:58,864  INFO StudentCRSClient,main:223 - cs101
+00:23:58,864  INFO StudentCRSClient,main:223 - cs102
+00:23:58,864  INFO StudentCRSClient,main:223 - eee101
+00:23:58,864  INFO StudentCRSClient,main:225 - <<-------------------------------------------------->>
+00:23:58,864  INFO StudentCRSClient,main:226 - 
+00:23:58,865  INFO StudentCRSClient,main:55 - Successfully added course
+00:23:58,865  INFO StudentCRSClient,main:56 - <<-------------------------------------------------->>
+00:23:58,865  INFO StudentCRSClient,main:57 - 
+00:23:58,865  INFO StudentCRSClient,main:183 - Enter your choice:
+00:23:58,865  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+00:23:58,865  INFO StudentCRSClient,main:185 - 2. Add a course
+00:23:58,865  INFO StudentCRSClient,main:186 - 3. Drop a course
+00:23:58,865  INFO StudentCRSClient,main:187 - 4. Register courses
+00:23:58,865  INFO StudentCRSClient,main:188 - 5. View registered courses
+00:23:58,865  INFO StudentCRSClient,main:189 - 6. View total semester fee
+00:23:58,865  INFO StudentCRSClient,main:190 - 7. Make fee payment
+00:23:58,865  INFO StudentCRSClient,main:191 - 8. View report card
+00:23:58,865  INFO StudentCRSClient,main:192 - 0. Logout
+00:24:00,457  INFO StudentCRSClient,main:201 - Enter Course Id to be added : ----
+00:24:03,594  INFO CourseOperation,main:55 - Checking if the course exist
+00:24:03,594 DEBUG CourseDaoImplementation,main:84 - Checking whether the course exists in the Database
+00:24:03,636 DEBUG CourseDaoImplementation,main:96 - Course with course ID: eee102 exists.
+00:24:03,637  INFO StudentOperation,main:90 - Student is adding courses
+00:24:03,637  INFO StudentCRSClient,main:218 -  
+00:24:03,637  INFO StudentCRSClient,main:219 - Updated Course List ---- 
+00:24:03,637  INFO StudentCRSClient,main:223 - cs101
+00:24:03,637  INFO StudentCRSClient,main:223 - cs102
+00:24:03,637  INFO StudentCRSClient,main:223 - eee101
+00:24:03,637  INFO StudentCRSClient,main:223 - eee102
+00:24:03,638  INFO StudentCRSClient,main:225 - <<-------------------------------------------------->>
+00:24:03,638  INFO StudentCRSClient,main:226 - 
+00:24:03,638  INFO StudentCRSClient,main:55 - Successfully added course
+00:24:03,638  INFO StudentCRSClient,main:56 - <<-------------------------------------------------->>
+00:24:03,638  INFO StudentCRSClient,main:57 - 
+00:24:03,638  INFO StudentCRSClient,main:183 - Enter your choice:
+00:24:03,638  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+00:24:03,638  INFO StudentCRSClient,main:185 - 2. Add a course
+00:24:03,638  INFO StudentCRSClient,main:186 - 3. Drop a course
+00:24:03,638  INFO StudentCRSClient,main:187 - 4. Register courses
+00:24:03,639  INFO StudentCRSClient,main:188 - 5. View registered courses
+00:24:03,639  INFO StudentCRSClient,main:189 - 6. View total semester fee
+00:24:03,639  INFO StudentCRSClient,main:190 - 7. Make fee payment
+00:24:03,639  INFO StudentCRSClient,main:191 - 8. View report card
+00:24:03,639  INFO StudentCRSClient,main:192 - 0. Logout
+00:24:05,711  INFO StudentCRSClient,main:201 - Enter Course Id to be added : ----
+00:24:08,906  INFO CourseOperation,main:55 - Checking if the course exist
+00:24:08,907 DEBUG CourseDaoImplementation,main:84 - Checking whether the course exists in the Database
+00:24:08,949 DEBUG CourseDaoImplementation,main:96 - Course with course ID: eee103 exists.
+00:24:08,950  INFO StudentOperation,main:90 - Student is adding courses
+00:24:08,950  INFO StudentCRSClient,main:218 -  
+00:24:08,950  INFO StudentCRSClient,main:219 - Updated Course List ---- 
+00:24:08,950  INFO StudentCRSClient,main:223 - cs101
+00:24:08,950  INFO StudentCRSClient,main:223 - cs102
+00:24:08,950  INFO StudentCRSClient,main:223 - eee101
+00:24:08,950  INFO StudentCRSClient,main:223 - eee102
+00:24:08,950  INFO StudentCRSClient,main:223 - eee103
+00:24:08,950  INFO StudentCRSClient,main:225 - <<-------------------------------------------------->>
+00:24:08,950  INFO StudentCRSClient,main:226 - 
+00:24:08,950  INFO StudentCRSClient,main:55 - Successfully added course
+00:24:08,950  INFO StudentCRSClient,main:56 - <<-------------------------------------------------->>
+00:24:08,951  INFO StudentCRSClient,main:57 - 
+00:24:08,951  INFO StudentCRSClient,main:183 - Enter your choice:
+00:24:08,951  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+00:24:08,951  INFO StudentCRSClient,main:185 - 2. Add a course
+00:24:08,951  INFO StudentCRSClient,main:186 - 3. Drop a course
+00:24:08,951  INFO StudentCRSClient,main:187 - 4. Register courses
+00:24:08,951  INFO StudentCRSClient,main:188 - 5. View registered courses
+00:24:08,951  INFO StudentCRSClient,main:189 - 6. View total semester fee
+00:24:08,951  INFO StudentCRSClient,main:190 - 7. Make fee payment
+00:24:08,951  INFO StudentCRSClient,main:191 - 8. View report card
+00:24:08,951  INFO StudentCRSClient,main:192 - 0. Logout
+00:24:14,539  INFO StudentCRSClient,main:96 - Not enough course selected, 6 Courses are required!
+00:24:14,540  INFO StudentCRSClient,main:97 - <<-------------------------------------------------->>
+00:24:14,541  INFO StudentCRSClient,main:98 - 
+00:24:14,542  INFO StudentCRSClient,main:183 - Enter your choice:
+00:24:14,542  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+00:24:14,543  INFO StudentCRSClient,main:185 - 2. Add a course
+00:24:14,543  INFO StudentCRSClient,main:186 - 3. Drop a course
+00:24:14,544  INFO StudentCRSClient,main:187 - 4. Register courses
+00:24:14,544  INFO StudentCRSClient,main:188 - 5. View registered courses
+00:24:14,545  INFO StudentCRSClient,main:189 - 6. View total semester fee
+00:24:14,545  INFO StudentCRSClient,main:190 - 7. Make fee payment
+00:24:14,546  INFO StudentCRSClient,main:191 - 8. View report card
+00:24:14,546  INFO StudentCRSClient,main:192 - 0. Logout
+01:22:10,107  INFO CRSApplication,main:15 - ***Thankyou***
+01:22:27,515  INFO CRSApplication,main:12 - ***Welcome to Course Registration System***
+ 
+01:22:28,155  INFO UserCRSClient,main:76 - -----------------------------------------
+01:22:28,155  INFO UserCRSClient,main:77 - Select the User Type
+01:22:28,156  INFO UserCRSClient,main:78 - 1. Admin
+01:22:28,156  INFO UserCRSClient,main:79 - 2. Professor
+01:22:28,156  INFO UserCRSClient,main:80 - 3. Student
+01:22:28,157  INFO UserCRSClient,main:81 - 0. To exit
+01:22:28,157  INFO UserCRSClient,main:82 - -----------------------------------------
+01:22:37,772  INFO UserCRSClient,main:86 - Enter your credentials
+01:22:37,773  INFO UserCRSClient,main:87 - -----------------------------------------
+01:22:37,773  INFO UserCRSClient,main:88 - Enter email :
+01:22:47,844  INFO UserCRSClient,main:90 - Enter Password :
+01:22:51,349 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+01:22:51,351 DEBUG AuthenticationDaoImplementation,main:388 - <----DAO: Authenticate Admin----->
+01:22:51,416  INFO AuthenticationDaoImplementation,main:424 - 101
+pooja
+01:22:51,416  INFO AuthenticationDaoImplementation,main:435 - DAO: Successful Login
+01:22:51,416  INFO AdminCRSClient,main:108 - Enter your choice:
+01:22:51,417  INFO AdminCRSClient,main:109 - 1. Update Course in Catalogue
+01:22:51,417  INFO AdminCRSClient,main:110 - 2. Add Course in Catalogue
+01:22:51,417  INFO AdminCRSClient,main:111 - 3. Delete Course in Catalogue
+01:22:51,417  INFO AdminCRSClient,main:112 - 4. Approve Students
+01:22:51,417  INFO AdminCRSClient,main:113 - 5. Add User
+01:22:51,417  INFO AdminCRSClient,main:114 - 6. Generate Report
+01:22:51,418  INFO AdminCRSClient,main:115 - 7. Remove User
+01:22:51,418  INFO AdminCRSClient,main:116 - 8. View Course Catalogue.
+01:22:51,418  INFO AdminCRSClient,main:117 - 9. View Students to be approved.
+01:22:51,418  INFO AdminCRSClient,main:118 - 0. logout
+01:22:57,302  INFO AdminCRSClient,main:290 - Enter Username: 
+01:23:09,142  INFO AdminCRSClient,main:294 - Enter Email ID: 
+01:23:18,467  INFO AdminCRSClient,main:298 - Enter Password: 
+01:23:22,111  INFO AdminCRSClient,main:302 - Select Usertype: 
+1. Admin
+2. Professor
+3. Student
+
+01:23:22,112  INFO AdminCRSClient,main:304 - Enter Usertype choice: 
+01:23:28,959  INFO AdminCRSClient,main:361 - Enter additional details for Student: 
+01:23:28,960  INFO AdminCRSClient,main:362 - Enter Branch: 
+01:23:37,646  INFO AdminCRSClient,main:366 - Enter Gender (m/f): 
+01:23:39,862  INFO AdminCRSClient,main:370 - Enter Address: 
+01:23:42,614  INFO AdminCRSClient,main:374 - Enter if the student has Scholarship (t/f): 
+01:23:46,150 DEBUG AdminDaoImplementation,main:426 - Checking whether the user exists in the Database
+01:23:46,201 DEBUG AdminDaoImplementation,main:438 - User with email ID: sat@gmail.com exists.
+01:23:46,202  INFO AdminCRSClient,main:331 - Problem occurred while adding User: satyam. Try again.
+01:23:46,206 ERROR AdminCRSClient,main:97 - Unable to add user for adminID: 101
+01:23:46,207  INFO CRSApplication,main:15 - ***Thankyou***
+01:24:10,899  INFO CRSApplication,main:12 - ***Welcome to Course Registration System***
+ 
+01:24:11,473  INFO UserCRSClient,main:76 - -----------------------------------------
+01:24:11,474  INFO UserCRSClient,main:77 - Select the User Type
+01:24:11,474  INFO UserCRSClient,main:78 - 1. Admin
+01:24:11,474  INFO UserCRSClient,main:79 - 2. Professor
+01:24:11,475  INFO UserCRSClient,main:80 - 3. Student
+01:24:11,475  INFO UserCRSClient,main:81 - 0. To exit
+01:24:11,475  INFO UserCRSClient,main:82 - -----------------------------------------
+01:24:16,279  INFO UserCRSClient,main:86 - Enter your credentials
+01:24:16,280  INFO UserCRSClient,main:87 - -----------------------------------------
+01:24:16,281  INFO UserCRSClient,main:88 - Enter email :
+01:24:26,094  INFO UserCRSClient,main:90 - Enter Password :
+01:24:47,939 DEBUG AuthenticationService,main:59 - <----Authenticate Admin----->
+01:24:47,943 DEBUG AuthenticationDaoImplementation,main:388 - <----DAO: Authenticate Admin----->
+01:24:48,029  INFO AuthenticationDaoImplementation,main:424 - 101
+pooja
+01:24:48,029  INFO AuthenticationDaoImplementation,main:435 - DAO: Successful Login
+01:24:48,029  INFO AdminCRSClient,main:108 - Enter your choice:
+01:24:48,030  INFO AdminCRSClient,main:109 - 1. Update Course in Catalogue
+01:24:48,030  INFO AdminCRSClient,main:110 - 2. Add Course in Catalogue
+01:24:48,030  INFO AdminCRSClient,main:111 - 3. Delete Course in Catalogue
+01:24:48,031  INFO AdminCRSClient,main:112 - 4. Approve Students
+01:24:48,031  INFO AdminCRSClient,main:113 - 5. Add User
+01:24:48,031  INFO AdminCRSClient,main:114 - 6. Generate Report
+01:24:48,031  INFO AdminCRSClient,main:115 - 7. Remove User
+01:24:48,031  INFO AdminCRSClient,main:116 - 8. View Course Catalogue.
+01:24:48,031  INFO AdminCRSClient,main:117 - 9. View Students to be approved.
+01:24:48,032  INFO AdminCRSClient,main:118 - 0. logout
+01:24:56,566  INFO AdminCRSClient,main:290 - Enter Username: 
+01:25:08,394  INFO AdminCRSClient,main:294 - Enter Email ID: 
+01:25:17,450  INFO AdminCRSClient,main:298 - Enter Password: 
+01:25:20,790  INFO AdminCRSClient,main:302 - Select Usertype: 
+1. Admin
+2. Professor
+3. Student
+
+01:25:20,791  INFO AdminCRSClient,main:304 - Enter Usertype choice: 
+01:25:25,295  INFO AdminCRSClient,main:361 - Enter additional details for Student: 
+01:25:25,296  INFO AdminCRSClient,main:362 - Enter Branch: 
+01:25:33,930  INFO AdminCRSClient,main:366 - Enter Gender (m/f): 
+01:25:35,909  INFO AdminCRSClient,main:370 - Enter Address: 
+01:25:38,278  INFO AdminCRSClient,main:374 - Enter if the student has Scholarship (t/f): 
+01:25:40,198 DEBUG AdminDaoImplementation,main:426 - Checking whether the user exists in the Database
+01:25:40,244 DEBUG AdminDaoImplementation,main:434 - No user with email ID: xyz@gmail.com exists.
+01:25:40,244 DEBUG AdminDaoImplementation,main:349 - Admin is creating a new user of type: Student
+01:25:40,244 DEBUG AdminDaoImplementation,main:250 - Adding user in user table
+01:25:40,340 DEBUG AdminDaoImplementation,main:268 - Added to user table successfully.
+01:25:40,340 DEBUG AdminDaoImplementation,main:289 - Fetching userID from database.
+01:25:40,370 DEBUG AdminDaoImplementation,main:360 - Adding entry to student table
+01:25:40,474  INFO AdminCRSClient,main:328 - User: xyz added successfully.
+01:25:40,474  INFO AdminCRSClient,main:108 - Enter your choice:
+01:25:40,475  INFO AdminCRSClient,main:109 - 1. Update Course in Catalogue
+01:25:40,475  INFO AdminCRSClient,main:110 - 2. Add Course in Catalogue
+01:25:40,475  INFO AdminCRSClient,main:111 - 3. Delete Course in Catalogue
+01:25:40,475  INFO AdminCRSClient,main:112 - 4. Approve Students
+01:25:40,476  INFO AdminCRSClient,main:113 - 5. Add User
+01:25:40,476  INFO AdminCRSClient,main:114 - 6. Generate Report
+01:25:40,476  INFO AdminCRSClient,main:115 - 7. Remove User
+01:25:40,476  INFO AdminCRSClient,main:116 - 8. View Course Catalogue.
+01:25:40,476  INFO AdminCRSClient,main:117 - 9. View Students to be approved.
+01:25:40,476  INFO AdminCRSClient,main:118 - 0. logout
+01:25:46,538  INFO CRSApplication,main:15 - ***Thankyou***
+01:25:56,881  INFO CRSApplication,main:12 - ***Welcome to Course Registration System***
+ 
+01:25:57,464  INFO UserCRSClient,main:76 - -----------------------------------------
+01:25:57,465  INFO UserCRSClient,main:77 - Select the User Type
+01:25:57,465  INFO UserCRSClient,main:78 - 1. Admin
+01:25:57,465  INFO UserCRSClient,main:79 - 2. Professor
+01:25:57,465  INFO UserCRSClient,main:80 - 3. Student
+01:25:57,465  INFO UserCRSClient,main:81 - 0. To exit
+01:25:57,465  INFO UserCRSClient,main:82 - -----------------------------------------
+01:39:13,513  INFO UserCRSClient,main:86 - Enter your credentials
+01:39:13,514  INFO UserCRSClient,main:87 - -----------------------------------------
+01:39:13,515  INFO UserCRSClient,main:88 - Enter email :
+01:39:23,204  INFO UserCRSClient,main:90 - Enter Password :
+01:39:25,019 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+01:39:25,022 DEBUG AuthenticationDaoImplementation,main:102 - <----DAO: Authenticate Student----->
+01:39:25,100 DEBUG AuthenticationDaoImplementation,main:210 - <----DAO: Getting registered courses list for studentId: 113 ----->
+01:39:25,134  INFO AuthenticationDaoImplementation,main:185 - DAO: Successful Login
+01:39:25,135 DEBUG StudentCRSClient,main:24 - 113
+01:39:25,135  INFO StudentCRSClient,main:183 - Enter your choice:
+01:39:25,135  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+01:39:25,135  INFO StudentCRSClient,main:185 - 2. Add a course
+01:39:25,136  INFO StudentCRSClient,main:186 - 3. Drop a course
+01:39:25,136  INFO StudentCRSClient,main:187 - 4. Register courses
+01:39:25,136  INFO StudentCRSClient,main:188 - 5. View registered courses
+01:39:25,136  INFO StudentCRSClient,main:189 - 6. View total semester fee
+01:39:25,137  INFO StudentCRSClient,main:190 - 7. Make fee payment
+01:39:25,137  INFO StudentCRSClient,main:191 - 8. View report card
+01:39:25,137  INFO StudentCRSClient,main:192 - 0. Logout
+01:45:13,481  INFO CRSApplication,main:12 - ***Welcome to Course Registration System***
+ 
+01:45:14,095  INFO UserCRSClient,main:76 - -----------------------------------------
+01:45:14,095  INFO UserCRSClient,main:77 - Select the User Type
+01:45:14,096  INFO UserCRSClient,main:78 - 1. Admin
+01:45:14,096  INFO UserCRSClient,main:79 - 2. Professor
+01:45:14,096  INFO UserCRSClient,main:80 - 3. Student
+01:45:14,097  INFO UserCRSClient,main:81 - 0. To exit
+01:45:14,097  INFO UserCRSClient,main:82 - -----------------------------------------
+01:45:20,513  INFO UserCRSClient,main:86 - Enter your credentials
+01:45:20,514  INFO UserCRSClient,main:87 - -----------------------------------------
+01:45:20,514  INFO UserCRSClient,main:88 - Enter email :
+01:45:29,448  INFO UserCRSClient,main:90 - Enter Password :
+01:45:32,257 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+01:45:32,260 DEBUG AuthenticationDaoImplementation,main:102 - <----DAO: Authenticate Student----->
+01:45:32,332 DEBUG AuthenticationDaoImplementation,main:210 - <----DAO: Getting registered courses list for studentId: 113 ----->
+01:45:32,355  INFO AuthenticationDaoImplementation,main:185 - DAO: Successful Login
+01:45:32,355 DEBUG StudentCRSClient,main:24 - 113
+01:45:32,356  INFO StudentCRSClient,main:183 - Enter your choice:
+01:45:32,356  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+01:45:32,356  INFO StudentCRSClient,main:185 - 2. Add a course
+01:45:32,356  INFO StudentCRSClient,main:186 - 3. Drop a course
+01:45:32,356  INFO StudentCRSClient,main:187 - 4. Register courses
+01:45:32,356  INFO StudentCRSClient,main:188 - 5. View registered courses
+01:45:32,357  INFO StudentCRSClient,main:189 - 6. View total semester fee
+01:45:32,357  INFO StudentCRSClient,main:190 - 7. Make fee payment
+01:45:32,357  INFO StudentCRSClient,main:191 - 8. View report card
+01:45:32,357  INFO StudentCRSClient,main:192 - 0. Logout
+01:46:25,908  INFO CRSApplication,main:15 - ***Thankyou***
+01:46:31,799  INFO CRSApplication,main:12 - ***Welcome to Course Registration System***
+ 
+01:46:32,399  INFO UserCRSClient,main:76 - -----------------------------------------
+01:46:32,400  INFO UserCRSClient,main:77 - Select the User Type
+01:46:32,400  INFO UserCRSClient,main:78 - 1. Admin
+01:46:32,400  INFO UserCRSClient,main:79 - 2. Professor
+01:46:32,401  INFO UserCRSClient,main:80 - 3. Student
+01:46:32,401  INFO UserCRSClient,main:81 - 0. To exit
+01:46:32,401  INFO UserCRSClient,main:82 - -----------------------------------------
+01:46:35,581  INFO UserCRSClient,main:86 - Enter your credentials
+01:46:35,582  INFO UserCRSClient,main:87 - -----------------------------------------
+01:46:35,583  INFO UserCRSClient,main:88 - Enter email :
+01:46:48,816  INFO UserCRSClient,main:90 - Enter Password :
+01:46:51,037 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+01:46:51,041 DEBUG AuthenticationDaoImplementation,main:102 - <----DAO: Authenticate Student----->
+01:46:51,103  INFO AuthenticationDaoImplementation,main:175 - IsApproved: false
+01:46:51,104 DEBUG AuthenticationDaoImplementation,main:211 - <----DAO: Getting registered courses list for studentId: 113 ----->
+01:46:51,129  INFO AuthenticationDaoImplementation,main:186 - DAO: Successful Login
+01:46:51,129 DEBUG StudentCRSClient,main:24 - 113
+01:46:51,130  INFO StudentCRSClient,main:183 - Enter your choice:
+01:46:51,130  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+01:46:51,130  INFO StudentCRSClient,main:185 - 2. Add a course
+01:46:51,130  INFO StudentCRSClient,main:186 - 3. Drop a course
+01:46:51,131  INFO StudentCRSClient,main:187 - 4. Register courses
+01:46:51,131  INFO StudentCRSClient,main:188 - 5. View registered courses
+01:46:51,131  INFO StudentCRSClient,main:189 - 6. View total semester fee
+01:46:51,131  INFO StudentCRSClient,main:190 - 7. Make fee payment
+01:46:51,132  INFO StudentCRSClient,main:191 - 8. View report card
+01:46:51,132  INFO StudentCRSClient,main:192 - 0. Logout
+01:48:20,804  INFO CRSApplication,main:15 - ***Thankyou***
+01:48:25,095  INFO CRSApplication,main:12 - ***Welcome to Course Registration System***
+ 
+01:48:25,770  INFO UserCRSClient,main:76 - -----------------------------------------
+01:48:25,770  INFO UserCRSClient,main:77 - Select the User Type
+01:48:25,771  INFO UserCRSClient,main:78 - 1. Admin
+01:48:25,771  INFO UserCRSClient,main:79 - 2. Professor
+01:48:25,771  INFO UserCRSClient,main:80 - 3. Student
+01:48:25,771  INFO UserCRSClient,main:81 - 0. To exit
+01:48:25,772  INFO UserCRSClient,main:82 - -----------------------------------------
+01:48:29,724  INFO UserCRSClient,main:86 - Enter your credentials
+01:48:29,725  INFO UserCRSClient,main:87 - -----------------------------------------
+01:48:29,725  INFO UserCRSClient,main:88 - Enter email :
+01:48:35,572  INFO UserCRSClient,main:90 - Enter Password :
+01:48:38,297 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+01:48:38,301 DEBUG AuthenticationDaoImplementation,main:102 - <----DAO: Authenticate Student----->
+01:48:38,374  INFO AuthenticationDaoImplementation,main:175 - IsApproved: false
+01:48:38,375 DEBUG AuthenticationDaoImplementation,main:211 - <----DAO: Getting registered courses list for studentId: 113 ----->
+01:48:38,405  INFO AuthenticationDaoImplementation,main:186 - DAO: Successful Login
+01:48:38,405 DEBUG StudentCRSClient,main:24 - 113
+01:48:38,406  INFO StudentCRSClient,main:183 - Enter your choice:
+01:48:38,406  INFO StudentCRSClient,main:184 - 1. View Course Catalogue
+01:48:38,406  INFO StudentCRSClient,main:185 - 2. Add a course
+01:48:38,407  INFO StudentCRSClient,main:186 - 3. Drop a course
+01:48:38,407  INFO StudentCRSClient,main:187 - 4. Register courses
+01:48:38,407  INFO StudentCRSClient,main:188 - 5. View registered courses
+01:48:38,407  INFO StudentCRSClient,main:189 - 6. View total semester fee
+01:48:38,408  INFO StudentCRSClient,main:190 - 7. Make fee payment
+01:48:38,408  INFO StudentCRSClient,main:191 - 8. View report card
+01:48:38,408  INFO StudentCRSClient,main:192 - 0. Logout
+01:54:00,784  INFO CRSApplication,main:12 - ***Welcome to Course Registration System***
+ 
+01:54:01,488  INFO UserCRSClient,main:76 - -----------------------------------------
+01:54:01,489  INFO UserCRSClient,main:77 - Select the User Type
+01:54:01,489  INFO UserCRSClient,main:78 - 1. Admin
+01:54:01,489  INFO UserCRSClient,main:79 - 2. Professor
+01:54:01,490  INFO UserCRSClient,main:80 - 3. Student
+01:54:01,490  INFO UserCRSClient,main:81 - 0. To exit
+01:54:01,490  INFO UserCRSClient,main:82 - -----------------------------------------
+01:54:04,839  INFO UserCRSClient,main:86 - Enter your credentials
+01:54:04,840  INFO UserCRSClient,main:87 - -----------------------------------------
+01:54:04,840  INFO UserCRSClient,main:88 - Enter email :
+01:54:11,424  INFO UserCRSClient,main:90 - Enter Password :
+01:54:13,363 DEBUG AuthenticationService,main:33 - <----Authenticate Student----->
+01:54:13,364 DEBUG AuthenticationDaoImplementation,main:102 - <----DAO: Authenticate Student----->
+01:54:13,413  INFO AuthenticationDaoImplementation,main:175 - IsApproved: false
+01:54:13,415  INFO AuthenticationDaoImplementation,main:183 - DAO: Student: xyz ID: 113 is not approved.
+01:54:13,415  INFO UserCRSClient,main:62 - Try again
+01:54:13,415  INFO UserCRSClient,main:76 - -----------------------------------------
+01:54:13,416  INFO UserCRSClient,main:77 - Select the User Type
+01:54:13,416  INFO UserCRSClient,main:78 - 1. Admin
+01:54:13,416  INFO UserCRSClient,main:79 - 2. Professor
+01:54:13,416  INFO UserCRSClient,main:80 - 3. Student
+01:54:13,416  INFO UserCRSClient,main:81 - 0. To exit
+01:54:13,416  INFO UserCRSClient,main:82 - -----------------------------------------
+10:50:26,822  INFO CRSApplication,main:13 - ***Welcome to Course Registration System***
+ 
+10:50:27,838  INFO UserCRSClient,main:100 - -----------------------------------------
+10:50:27,838  INFO UserCRSClient,main:101 - Select the User Type
+10:50:27,838  INFO UserCRSClient,main:102 - 1. Admin
+10:50:27,838  INFO UserCRSClient,main:103 - 2. Professor
+10:50:27,838  INFO UserCRSClient,main:104 - 3. Student
+10:50:27,839  INFO UserCRSClient,main:105 - 4. Student Account Creation
+10:50:27,839  INFO UserCRSClient,main:106 - 0. To exit
+10:50:27,839  INFO UserCRSClient,main:107 - -----------------------------------------
+10:50:34,667  INFO UserCRSClient,main:68 - Enter student's details
+10:50:34,667  INFO UserCRSClient,main:69 - -----------------------------------------
+10:50:34,667  INFO UserCRSClient,main:70 - Enter email :
+10:50:44,219  INFO UserCRSClient,main:72 - Enter name :
+10:50:48,930  INFO UserCRSClient,main:74 - Enter password :
+10:50:55,322  INFO UserCRSClient,main:76 - Enter branch :
+10:50:58,890  INFO UserCRSClient,main:78 - Enter gender as (m/f) :
+10:51:01,066  INFO UserCRSClient,main:80 - Enter address :
+10:51:07,675 DEBUG AuthenticationService,main:88 - <----Register new student----->
+10:51:07,676 DEBUG AuthenticationDaoImplementation,main:479 - <----DAO: Register new student----->
+10:51:07,810  INFO AuthenticationDaoImplementation,main:497 - 
+10:51:07,878  INFO AuthenticationDaoImplementation,main:514 - DAO: Updated User table for abc
+10:51:07,879 DEBUG AuthenticationDaoImplementation,main:551 - <----DAO: Get userId for email: abc@gmail.com ----->
+10:51:07,982  INFO AuthenticationDaoImplementation,main:535 - DAO: Registration successful for abcand userId: 114
+10:51:07,982  INFO UserCRSClient,main:85 - Account created!
+10:51:07,982  INFO UserCRSClient,main:100 - -----------------------------------------
+10:51:07,982  INFO UserCRSClient,main:101 - Select the User Type
+10:51:07,982  INFO UserCRSClient,main:102 - 1. Admin
+10:51:07,982  INFO UserCRSClient,main:103 - 2. Professor
+10:51:07,983  INFO UserCRSClient,main:104 - 3. Student
+10:51:07,983  INFO UserCRSClient,main:105 - 4. Student Account Creation
+10:51:07,983  INFO UserCRSClient,main:106 - 0. To exit
+10:51:07,983  INFO UserCRSClient,main:107 - -----------------------------------------
+11:19:50,864  INFO CRSApplication,main:13 - ***Welcome to Course Registration System***
+ 
+11:19:52,443  INFO UserCRSClient,main:100 - -----------------------------------------
+11:19:52,443  INFO UserCRSClient,main:101 - Select the User Type
+11:19:52,444  INFO UserCRSClient,main:102 - 1. Admin
+11:19:52,444  INFO UserCRSClient,main:103 - 2. Professor
+11:19:52,444  INFO UserCRSClient,main:104 - 3. Student
+11:19:52,444  INFO UserCRSClient,main:105 - 4. Student Account Creation
+11:19:52,445  INFO UserCRSClient,main:106 - 0. To exit
+11:19:52,445  INFO UserCRSClient,main:107 - -----------------------------------------
+11:19:55,856  INFO UserCRSClient,main:68 - Enter student's details
+11:19:55,857  INFO UserCRSClient,main:69 - -----------------------------------------
+11:19:55,858  INFO UserCRSClient,main:70 - Enter email :
+11:20:01,836  INFO UserCRSClient,main:72 - Enter name :
+11:20:01,838  INFO UserCRSClient,main:74 - Enter password :
+11:22:50,464  INFO CRSApplication,main:13 - ***Welcome to Course Registration System***
+ 
+11:22:51,198  INFO UserCRSClient,main:100 - -----------------------------------------
+11:22:51,199  INFO UserCRSClient,main:101 - Select the User Type
+11:22:51,199  INFO UserCRSClient,main:102 - 1. Admin
+11:22:51,200  INFO UserCRSClient,main:103 - 2. Professor
+11:22:51,201  INFO UserCRSClient,main:104 - 3. Student
+11:22:51,201  INFO UserCRSClient,main:105 - 4. Student Account Creation
+11:22:51,201  INFO UserCRSClient,main:106 - 0. To exit
+11:22:51,202  INFO UserCRSClient,main:107 - -----------------------------------------
+11:22:56,919  INFO UserCRSClient,main:68 - Enter student's details
+11:22:56,920  INFO UserCRSClient,main:69 - -----------------------------------------
+11:22:56,921  INFO UserCRSClient,main:70 - Enter email :
+11:22:56,923  INFO UserCRSClient,main:72 - Enter name :
+11:24:43,738  INFO CRSApplication,main:13 - ***Welcome to Course Registration System***
+ 
+11:24:44,448  INFO UserCRSClient,main:100 - -----------------------------------------
+11:24:44,449  INFO UserCRSClient,main:101 - Select the User Type
+11:24:44,450  INFO UserCRSClient,main:102 - 1. Admin
+11:24:44,450  INFO UserCRSClient,main:103 - 2. Professor
+11:24:44,450  INFO UserCRSClient,main:104 - 3. Student
+11:24:44,450  INFO UserCRSClient,main:105 - 4. Student Account Creation
+11:24:44,450  INFO UserCRSClient,main:106 - 0. To exit
+11:24:44,450  INFO UserCRSClient,main:107 - -----------------------------------------
+11:24:57,029  INFO UserCRSClient,main:68 - Enter student's details
+11:24:57,030  INFO UserCRSClient,main:69 - -----------------------------------------
+11:24:57,031  INFO UserCRSClient,main:70 - Enter email :
+11:25:09,901  INFO UserCRSClient,main:72 - Enter name :
+11:25:17,310  INFO UserCRSClient,main:74 - Enter password :
+11:25:20,519  INFO UserCRSClient,main:76 - Enter branch :
+11:25:29,213  INFO UserCRSClient,main:78 - Enter gender as (m/f) :
+11:25:31,413  INFO UserCRSClient,main:80 - Enter address :
+11:25:35,406 DEBUG AuthenticationService,main:88 - <----Register new student----->
+11:25:35,410 DEBUG AuthenticationDaoImplementation,main:483 - <----DAO: Register new student----->
+11:25:35,580  INFO AuthenticationDaoImplementation,main:501 - 
+11:25:35,686  INFO AuthenticationDaoImplementation,main:518 - DAO: Updated User table for abd
+11:25:35,686 DEBUG AuthenticationDaoImplementation,main:555 - <----DAO: Get userId for email: abd@gmail.com ----->
+11:25:35,783  INFO AuthenticationDaoImplementation,main:539 - DAO: Registration successful for abd and userId: 115
+11:25:35,783  INFO UserCRSClient,main:85 - Account created!
+11:25:35,783  INFO UserCRSClient,main:100 - -----------------------------------------
+11:25:35,784  INFO UserCRSClient,main:101 - Select the User Type
+11:25:35,784  INFO UserCRSClient,main:102 - 1. Admin
+11:25:35,784  INFO UserCRSClient,main:103 - 2. Professor
+11:25:35,784  INFO UserCRSClient,main:104 - 3. Student
+11:25:35,784  INFO UserCRSClient,main:105 - 4. Student Account Creation
+11:25:35,785  INFO UserCRSClient,main:106 - 0. To exit
+11:25:35,785  INFO UserCRSClient,main:107 - -----------------------------------------
+11:25:39,702  INFO UserCRSClient,main:111 - Enter your credentials
+11:25:39,703  INFO UserCRSClient,main:112 - -----------------------------------------
+11:25:39,703  INFO UserCRSClient,main:113 - Enter email :
+11:25:49,772  INFO UserCRSClient,main:115 - Enter Password :
+11:25:52,954 DEBUG AuthenticationService,main:72 - <----Authenticate Admin----->
+11:25:52,955 DEBUG AuthenticationDaoImplementation,main:411 - <----DAO: Authenticate Admin----->
+11:25:53,045  INFO AuthenticationDaoImplementation,main:447 - 101
+pooja
+11:25:53,045  INFO AuthenticationDaoImplementation,main:458 - DAO: Successful Login
+11:25:53,045  INFO AdminCRSClient,main:108 - Enter your choice:
+11:25:53,046  INFO AdminCRSClient,main:109 - 1. Update Course in Catalogue
+11:25:53,046  INFO AdminCRSClient,main:110 - 2. Add Course in Catalogue
+11:25:53,046  INFO AdminCRSClient,main:111 - 3. Delete Course in Catalogue
+11:25:53,046  INFO AdminCRSClient,main:112 - 4. Approve Students
+11:25:53,046  INFO AdminCRSClient,main:113 - 5. Add User
+11:25:53,046  INFO AdminCRSClient,main:114 - 6. Generate Report
+11:25:53,046  INFO AdminCRSClient,main:115 - 7. Remove User
+11:25:53,046  INFO AdminCRSClient,main:116 - 8. View Course Catalogue.
+11:25:53,047  INFO AdminCRSClient,main:117 - 9. View Students to be approved.
+11:25:53,047  INFO AdminCRSClient,main:118 - 0. logout
+11:46:47,952  INFO CRSApplication,main:13 - ***Welcome to Course Registration System***
+ 
+11:46:48,768  INFO UserCRSClient,main:100 - -----------------------------------------
+11:46:48,768  INFO UserCRSClient,main:101 - Select the User Type
+11:46:48,769  INFO UserCRSClient,main:102 - 1. Admin
+11:46:48,769  INFO UserCRSClient,main:103 - 2. Professor
+11:46:48,769  INFO UserCRSClient,main:104 - 3. Student
+11:46:48,770  INFO UserCRSClient,main:105 - 4. Student Account Creation
+11:46:48,770  INFO UserCRSClient,main:106 - 0. To exit
+11:46:48,770  INFO UserCRSClient,main:107 - -----------------------------------------
+11:46:51,998  INFO UserCRSClient,main:111 - Enter your credentials
+11:46:52,000  INFO UserCRSClient,main:112 - -----------------------------------------
+11:46:52,000  INFO UserCRSClient,main:113 - Enter email :
+11:46:59,921  INFO UserCRSClient,main:115 - Enter Password :
+11:47:02,566 DEBUG AuthenticationService,main:46 - <----Authenticate Student----->
+11:47:02,569 DEBUG AuthenticationDaoImplementation,main:115 - <----DAO: Authenticate Student----->
+11:47:02,676  INFO AuthenticationDaoImplementation,main:192 - IsApproved: false
+11:47:02,680  INFO AuthenticationDaoImplementation,main:200 - DAO: Student: abc with ID: 114 is not approved.
+11:47:02,681  INFO UserCRSClient,main:63 - Try again
+11:47:02,682  INFO UserCRSClient,main:100 - -----------------------------------------
+11:47:02,682  INFO UserCRSClient,main:101 - Select the User Type
+11:47:02,683  INFO UserCRSClient,main:102 - 1. Admin
+11:47:02,684  INFO UserCRSClient,main:103 - 2. Professor
+11:47:02,684  INFO UserCRSClient,main:104 - 3. Student
+11:47:02,684  INFO UserCRSClient,main:105 - 4. Student Account Creation
+11:47:02,684  INFO UserCRSClient,main:106 - 0. To exit
+11:47:02,684  INFO UserCRSClient,main:107 - -----------------------------------------
+12:54:41,135  INFO CRSApplication,main:13 - ***Welcome to Course Registration System***
+ 
+12:54:42,081  INFO UserCRSClient,main:100 - -----------------------------------------
+12:54:42,081  INFO UserCRSClient,main:101 - Select the User Type
+12:54:42,082  INFO UserCRSClient,main:102 - 1. Admin
+12:54:42,082  INFO UserCRSClient,main:103 - 2. Professor
+12:54:42,082  INFO UserCRSClient,main:104 - 3. Student
+12:54:42,082  INFO UserCRSClient,main:105 - 4. Student Account Creation
+12:54:42,083  INFO UserCRSClient,main:106 - 0. To exit
+12:54:42,083  INFO UserCRSClient,main:107 - -----------------------------------------
+12:54:48,771  INFO UserCRSClient,main:68 - Enter student's details
+12:54:48,772  INFO UserCRSClient,main:69 - -----------------------------------------
+12:54:48,773  INFO UserCRSClient,main:70 - Enter email :
+12:54:50,808  INFO UserCRSClient,main:72 - Enter name :
+12:55:00,401  INFO CRSApplication,main:13 - ***Welcome to Course Registration System***
+ 
+12:55:01,222  INFO UserCRSClient,main:100 - -----------------------------------------
+12:55:01,222  INFO UserCRSClient,main:101 - Select the User Type
+12:55:01,222  INFO UserCRSClient,main:102 - 1. Admin
+12:55:01,223  INFO UserCRSClient,main:103 - 2. Professor
+12:55:01,223  INFO UserCRSClient,main:104 - 3. Student
+12:55:01,223  INFO UserCRSClient,main:105 - 4. Student Account Creation
+12:55:01,223  INFO UserCRSClient,main:106 - 0. To exit
+12:55:01,223  INFO UserCRSClient,main:107 - -----------------------------------------
+12:55:04,511  INFO UserCRSClient,main:68 - Enter student's details
+12:55:04,512  INFO UserCRSClient,main:69 - -----------------------------------------
+12:55:04,512  INFO UserCRSClient,main:70 - Enter email :
+12:55:14,408  INFO UserCRSClient,main:72 - Enter name :
+12:55:16,583  INFO UserCRSClient,main:74 - Enter password :
+12:55:17,895  INFO UserCRSClient,main:76 - Enter branch :
+12:55:18,679  INFO UserCRSClient,main:78 - Enter gender as (m/f) :
+12:55:19,945  INFO UserCRSClient,main:80 - Enter address :
+12:55:21,524 DEBUG AuthenticationService,main:88 - <----Register new student----->
+12:55:21,535 DEBUG AuthenticationDaoImplementation,main:483 - <----DAO: Register new student----->
+12:55:21,607  INFO AuthenticationDaoImplementation,main:501 - pooja@gmail.com
+12:55:21,614  INFO AuthenticationDaoImplementation,main:503 - DAO: Registration Unsuccessful! Email: pooja@gmail.com exists
+12:55:21,615  INFO UserCRSClient,main:87 - Try again
+12:55:21,617  INFO UserCRSClient,main:100 - -----------------------------------------
+12:55:21,619  INFO UserCRSClient,main:101 - Select the User Type
+12:55:21,620  INFO UserCRSClient,main:102 - 1. Admin
+12:55:21,620  INFO UserCRSClient,main:103 - 2. Professor
+12:55:21,621  INFO UserCRSClient,main:104 - 3. Student
+12:55:21,621  INFO UserCRSClient,main:105 - 4. Student Account Creation
+12:55:21,621  INFO UserCRSClient,main:106 - 0. To exit
+12:55:21,621  INFO UserCRSClient,main:107 - -----------------------------------------
+12:57:21,203  INFO UserCRSClient,main:111 - Enter your credentials
+12:57:21,204  INFO UserCRSClient,main:112 - -----------------------------------------
+12:57:21,204  INFO UserCRSClient,main:113 - Enter email :
+12:57:26,277  INFO UserCRSClient,main:115 - Enter Password :
+12:57:27,626 DEBUG AuthenticationService,main:59 - <----Authenticate Professor----->
+12:57:27,628 DEBUG AuthenticationDaoImplementation,main:286 - <----DAO: Authenticate Professor----->
+12:57:27,675  INFO AuthenticationDaoImplementation,main:300 - DAO: Professor doesn't exists
+12:57:27,675  INFO UserCRSClient,main:50 - Try again
+12:57:27,676  INFO UserCRSClient,main:100 - -----------------------------------------
+12:57:27,677  INFO UserCRSClient,main:101 - Select the User Type
+12:57:27,677  INFO UserCRSClient,main:102 - 1. Admin
+12:57:27,677  INFO UserCRSClient,main:103 - 2. Professor
+12:57:27,677  INFO UserCRSClient,main:104 - 3. Student
+12:57:27,677  INFO UserCRSClient,main:105 - 4. Student Account Creation
+12:57:27,677  INFO UserCRSClient,main:106 - 0. To exit
+12:57:27,678  INFO UserCRSClient,main:107 - -----------------------------------------
+13:06:27,948  INFO CRSApplication,main:13 - ***Welcome to Course Registration System***
+ 
+13:06:28,642  INFO UserCRSClient,main:100 - -----------------------------------------
+13:06:28,642  INFO UserCRSClient,main:101 - Select the User Type
+13:06:28,642  INFO UserCRSClient,main:102 - 1. Admin
+13:06:28,643  INFO UserCRSClient,main:103 - 2. Professor
+13:06:28,643  INFO UserCRSClient,main:104 - 3. Student
+13:06:28,643  INFO UserCRSClient,main:105 - 4. Student Account Creation
+13:06:28,643  INFO UserCRSClient,main:106 - 0. To exit
+13:06:28,643  INFO UserCRSClient,main:107 - -----------------------------------------
+13:06:32,722  INFO UserCRSClient,main:111 - Enter your credentials
+13:06:32,723  INFO UserCRSClient,main:112 - -----------------------------------------
+13:06:32,724  INFO UserCRSClient,main:113 - Enter email :
+13:06:34,269  INFO UserCRSClient,main:115 - Enter Password :
+13:06:35,718 DEBUG AuthenticationService,main:72 - <----Authenticate Admin----->
+13:06:35,722 DEBUG AuthenticationDaoImplementation,main:411 - <----DAO: Authenticate Admin----->
+13:06:35,803  INFO AuthenticationDaoImplementation,main:424 - DAO: Admin doesn't exists
+13:06:35,804  INFO UserCRSClient,main:39 - Try again
+13:06:35,804  INFO UserCRSClient,main:100 - -----------------------------------------
+13:06:35,804  INFO UserCRSClient,main:101 - Select the User Type
+13:06:35,805  INFO UserCRSClient,main:102 - 1. Admin
+13:06:35,805  INFO UserCRSClient,main:103 - 2. Professor
+13:06:35,805  INFO UserCRSClient,main:104 - 3. Student
+13:06:35,806  INFO UserCRSClient,main:105 - 4. Student Account Creation
+13:06:35,806  INFO UserCRSClient,main:106 - 0. To exit
+13:06:35,806  INFO UserCRSClient,main:107 - -----------------------------------------
+13:06:39,507  INFO UserCRSClient,main:111 - Enter your credentials
+13:06:39,508  INFO UserCRSClient,main:112 - -----------------------------------------
+13:06:39,509  INFO UserCRSClient,main:113 - Enter email :
+13:06:41,039  INFO UserCRSClient,main:115 - Enter Password :
+13:06:41,851 DEBUG AuthenticationService,main:59 - <----Authenticate Professor----->
+13:06:41,851 DEBUG AuthenticationDaoImplementation,main:286 - <----DAO: Authenticate Professor----->
+13:06:41,895  INFO AuthenticationDaoImplementation,main:300 - DAO: Professor doesn't exists
+13:06:41,896  INFO UserCRSClient,main:50 - Try again
+13:06:41,896  INFO UserCRSClient,main:100 - -----------------------------------------
+13:06:41,896  INFO UserCRSClient,main:101 - Select the User Type
+13:06:41,896  INFO UserCRSClient,main:102 - 1. Admin
+13:06:41,897  INFO UserCRSClient,main:103 - 2. Professor
+13:06:41,897  INFO UserCRSClient,main:104 - 3. Student
+13:06:41,897  INFO UserCRSClient,main:105 - 4. Student Account Creation
+13:06:41,897  INFO UserCRSClient,main:106 - 0. To exit
+13:06:41,897  INFO UserCRSClient,main:107 - -----------------------------------------
+13:06:43,973  INFO UserCRSClient,main:111 - Enter your credentials
+13:06:43,974  INFO UserCRSClient,main:112 - -----------------------------------------
+13:06:43,974  INFO UserCRSClient,main:113 - Enter email :
+13:06:45,277  INFO UserCRSClient,main:115 - Enter Password :
+13:06:46,165 DEBUG AuthenticationService,main:46 - <----Authenticate Student----->
+13:06:46,166 DEBUG AuthenticationDaoImplementation,main:115 - <----DAO: Authenticate Student----->
+13:06:46,211  INFO AuthenticationDaoImplementation,main:129 - DAO: Student doesn't exists
+13:06:46,212  INFO UserCRSClient,main:63 - Try again
+13:06:46,212  INFO UserCRSClient,main:100 - -----------------------------------------
+13:06:46,212  INFO UserCRSClient,main:101 - Select the User Type
+13:06:46,212  INFO UserCRSClient,main:102 - 1. Admin
+13:06:46,212  INFO UserCRSClient,main:103 - 2. Professor
+13:06:46,212  INFO UserCRSClient,main:104 - 3. Student
+13:06:46,212  INFO UserCRSClient,main:105 - 4. Student Account Creation
+13:06:46,212  INFO UserCRSClient,main:106 - 0. To exit
+13:06:46,213  INFO UserCRSClient,main:107 - -----------------------------------------

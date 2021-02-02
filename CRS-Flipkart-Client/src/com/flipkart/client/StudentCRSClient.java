@@ -1,0 +1,306 @@
+package com.flipkart.client;
+
+import com.flipkart.bean.Course;
+import com.flipkart.bean.Student;
+import com.flipkart.constants.Grades;
+import com.flipkart.exception.UserCRSException;
+import com.flipkart.service.*;
+import org.apache.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
+public class StudentCRSClient {
+
+	private static Logger logger = Logger.getLogger(StudentCRSClient.class);
+	Scanner input = new Scanner(System.in);
+	StudentInterface studentOperation = StudentOperation.getInstance();
+	CourseOperation courseOperation = CourseOperation.getInstance();
+
+	/**
+	 * Driver class for student user
+	 * @param student
+	 * @throws UserCRSException
+	 */
+	public void studentMenuHandler(Student student) throws UserCRSException {
+		logger.debug(student.getUserId());
+		try {
+			int choice;
+			boolean studentLogin = true;
+			List<Course> courseToRegister = new ArrayList<>();
+			do {
+				getStudentMenu();
+				choice = input.nextInt();
+
+				switch (choice) {
+				case 1:
+					List<Course> courseCatalogue = studentOperation.viewCourseCatalogue();
+					printCourseCatalogue(courseCatalogue);
+					break;
+
+				case 2:
+					if(!studentOperation.isAllowed(student)){
+						logger.info("You are already Registered, No modification allowed now!");
+						logger.info("-----------------------------------------");
+						 
+						break;
+					}
+					if(!studentOperation.canAdd(student)){
+						logger.info("You are already up with your Course List, Can't add more than 6 course!");
+						logger.info("-----------------------------------------");
+						 
+						break;
+					}
+					boolean addCourseStatus = addCourse(student);
+					
+					if (addCourseStatus) {
+						logger.info("Successfully added course");
+						logger.info("-----------------------------------------");
+						 
+					} else {
+						String msg = "Exception while adding Course";
+						throw new UserCRSException(msg, student.getUserId());
+					}
+					break;
+
+					case 3:
+					if(!studentOperation.isAllowed(student)){
+						logger.info("You are already Registered, No modification allowed now!");
+						logger.info("-----------------------------------------");
+						 
+						break;
+					}
+					if(student.getCourseList().size() == 0){
+						logger.info("You Don't have any Course added in your list!");
+						logger.info("-----------------------------------------");
+						 
+						break;
+					}
+					boolean dropCourseStatus = dropCourse(student);
+					if (dropCourseStatus) {
+						logger.info("Successfully added course");
+						logger.info("-----------------------------------------");
+						 
+					} else {
+						String msg = "Exception while dropping course";
+						throw new UserCRSException(msg, student.getUserId());
+					}
+					break;
+
+				case 4:
+					if(!studentOperation.isAllowed(student)){
+						logger.info("You are already Registered, No modification allowed now!");
+						logger.info("-----------------------------------------");
+						 
+						break;
+					}
+					if(!studentOperation.isCourseListValid(student)){
+						logger.info("Not enough course selected, 6 Courses are required!");
+						logger.info("-----------------------------------------");
+						 
+						break;
+					}
+					studentOperation.registerCourses(student, student.getCourseList());
+					break;
+
+				case 5:
+					if(!student.isRegistered()){
+						logger.info("You haven't registered for any courses yet!");
+						logger.info("-----------------------------------------");
+						 
+						break;
+					}
+					viewRegisteredCourses(student);
+					break;
+
+				case 6:
+					if(!student.isRegistered()){
+						logger.info("You haven't registered for any courses yet!");
+						logger.info("-----------------------------------------");
+						 
+						break;
+					}
+					Double fees = PaymentService.calculateAmount(student);
+					logger.info("Total Fee : " + fees);
+					break;
+
+				case 7:
+					if(!student.isRegistered()){
+						logger.info("You haven't registered for any courses yet!");
+						logger.info("-----------------------------------------");
+						 
+						break;
+					}
+					if(student.isHasPaidFee()){
+						logger.info("You have already paid the fee! ");
+						logger.info("-----------------------------------------");
+						 
+						break;
+					}
+					boolean feeStatus = studentOperation.makeFeePayment(student);
+					if (feeStatus) {
+						student.setHasPaidFee(true);
+						logger.info("Fee payment successful");
+					} else {
+						String msg = "Exception while paying fee";
+						throw new UserCRSException(msg, student.getUserId());
+					}
+
+					break;
+
+				case 8:
+					if(!student.isRegistered()){
+						logger.info("You haven't registered for any courses yet!");
+						logger.info("-----------------------------------------");
+						 
+						break;
+					}
+					if (student.isReportGenerated()) {
+						Map<Course, Grades> reportCard = studentOperation.viewGrades(student);
+						printGrades(reportCard);
+					}
+					else
+						logger.info("ReportCard not yet generated by Admin");
+					break;
+
+				case 0:
+					studentLogin = false;
+					break;
+
+					default:
+						logger.info("Invalid Input!");
+				}
+
+			} while (studentLogin);
+		}
+		catch (UserCRSException ex) {
+			logger.error(ex.getMsg() + " for studentID: " + ex.getUserId());
+			studentMenuHandler(student);
+		}
+		finally {
+			input.close();
+		}
+
+	}
+
+	/**
+	 * Display Menu for choices available to student
+	 */
+	public void getStudentMenu() {
+		logger.info("Enter your choice:");
+		logger.info("1. View Course Catalogue");
+		logger.info("2. Add a course");
+		logger.info("3. Drop a course");
+		logger.info("4. Register courses");
+		logger.info("5. View registered courses");
+		logger.info("6. View total semester fee");
+		logger.info("7. Make fee payment");
+		logger.info("8. View report card");
+		logger.info("0. Logout");
+	}
+
+	/**
+	 * Function to add courses for the input student
+	 * @param student user
+	 */
+	private boolean addCourse(Student student) {
+		logger.info("Enter Course Id to be added : ----");
+		String courseId = input.next();
+		Course course = new Course();
+		course.setCourseId(courseId);
+		if(!courseOperation.checkCourse(course)){
+			logger.info("No Course exists for the Course Id : " + courseId);
+			logger.info("-----------------------------------------");
+			 
+			return false;
+		}
+		if(studentOperation.hasThisCourse(student, course)){
+			logger.info("The Course " + courseId+" has already been added to your Course list, Not allowed!" );
+			logger.info("-----------------------------------------");
+			 
+			return false;
+		}
+		studentOperation.addCourses(course, student);
+		logger.info(" ");
+		logger.info("Updated Course List ---- ");
+
+		List<Course>courseList = student.getCourseList();
+		for(Course crs : courseList){
+			logger.info(crs.getCourseId());
+		}
+		logger.info("-----------------------------------------");
+		 
+		return true;
+	}
+
+	/**
+	 * Function to drop courses for the input student
+	 * @param student user
+	 */
+	private boolean dropCourse(Student student) {
+		logger.info("Enter Course Id to be dropped : ----");
+		String courseId = input.next();
+		Course course = new Course();
+		course.setCourseId(courseId);
+		if(!studentOperation.hasThisCourse(student, course)){
+			logger.info("The Course " + courseId+" has not been Selected yet, Not allowed!" );
+			logger.info("-----------------------------------------");
+			 
+			return false;
+		}
+		studentOperation.dropCourses(course, student);
+		logger.info(" ");
+		logger.info("Updated Course List ---- ");
+
+		List<Course>courseList = student.getCourseList();
+		for(Course crs : courseList){
+			logger.info(crs.getCourseId());
+		}
+		logger.info("-----------------------------------------");
+		return true;
+	}
+
+	/**
+	 * Prints the reportCard for the student
+	 * @param reportCard to be printed
+	 */
+	private void printGrades(Map<Course, Grades> reportCard) {
+		logger.info("--------Report Card--------");
+		for (Map.Entry<Course, Grades> entry : reportCard.entrySet()) {
+			logger.info(entry.getKey().getCourseName() + " ----> " + entry.getValue());
+		}
+		logger.info("-----------------------------------------");
+	}
+
+	/**
+	 * Helper function to print the course catalogue
+	 * @param courseList
+	 */
+	private void printCourseCatalogue(List<Course> courseList) {
+		logger.info("-------------------------------------------------------------------------");
+		String header= String.format("%10s%15s%12s%15s%20s", "Course ID", "Name", "Professor", "Description", "Fee");
+		logger.info(header);
+		logger.info("-------------------------------------------------------------------------");
+		for (Course course : courseList) {
+			String output= String.format("%10s%15s%12s%15s%20f", course.getCourseId(), course.getCourseName(), course.getCourseProfessor(), course.getCourseDescription(), course.getCourseFee());
+			logger.info(output);
+		}
+		logger.info("-------------------------------------------------------------------------");
+		logger.info("");
+	}
+
+	/**
+	 * Displays all the courses in which the student in registered.
+	 * @param student for which we have to display the list
+	 */
+	private void viewRegisteredCourses(Student student) {
+		logger.info("List of registered courses");
+		for (Course courseList : student.getCourseList()) {
+			logger.info(courseList.getCourseName());
+		}
+		logger.info("-----------------------------------------");
+	}
+
+}
