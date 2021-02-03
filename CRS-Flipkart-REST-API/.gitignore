@@ -1,0 +1,12 @@
+/bin/
+.classpath
+contacts.log
+/crsJediFlipkart/out/
+/crsJediFlipkart/src/config.properties
+/crsJediFlipkart/src/log4j.properties
+/crsJediFlipkart/.idea./
+crsJediFlipkart/CRS-Jedi-Flipkart.iml
+.DS_Store
+/src/config.properties
+/src/log4j.properties
+/build/
